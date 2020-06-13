@@ -701,3 +701,12 @@
 20200612-15:53:04.137935000 : Processing QUEUED message: 982
 20200612-15:53:10.102488000 : Socket Error: Connection reset by peer.
 20200612-15:53:10.102773000 : Disconnecting
+20200613-04:59:34.608198000 : Created session
+20200613-04:59:49.915536000 : Received logon request
+20200613-04:59:49.915737000 : Responding to logon request
+20200613-04:59:49.915749000 : MsgSeqNum too high, expecting 1 but received 2
+20200613-04:59:49.915848000 : Sent ResendRequest FROM: 1 TO: 0
+20200613-04:59:49.916135000 : ResendRequest for messages FROM: 1 TO: 1 has been satisfied.
+20200613-04:59:49.916777000 : Processing QUEUED message: 2
+20200613-05:00:02.364606000 : Socket Error: Connection reset by peer.
+20200613-05:00:02.364681000 : Disconnecting

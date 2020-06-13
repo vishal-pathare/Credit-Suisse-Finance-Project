@@ -161,7 +161,7 @@ def match(argument):
     return_order_id = argument["Return Order ID"]
 
     #If it is not cancel order request
-    if (order_id != 3)
+    if (order_id != 3):
         stock_id = argument["Security ID"]
 
     #Get the stock from the list of stocks

@@ -1221,3 +1221,10 @@
 20200612-15:53:04.134189000 : Received ResendRequest FROM: 980 TO: 0
 20200612-15:53:04.134682000 : Resending Message: 980
 20200612-15:53:04.135123000 : Sent SequenceReset TO: 983
+20200613-04:59:49.737452000 : Created session
+20200613-04:59:49.741212000 : Connecting to localhost on port 12002 (Source :0)
+20200613-04:59:49.894480000 : Initiated logon request
+20200613-04:59:49.915805000 : Received logon response
+20200613-04:59:49.915930000 : Received ResendRequest FROM: 1 TO: 0
+20200613-04:59:49.916030000 : Resending Message: 1
+20200613-04:59:49.916184000 : Sent SequenceReset TO: 3
