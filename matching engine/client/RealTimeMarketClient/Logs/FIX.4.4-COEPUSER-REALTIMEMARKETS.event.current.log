@@ -1,0 +1,16 @@
+20200612-03:36:13.485756000 : Created session
+20200612-03:36:13.487241000 : Connecting to localhost on port 12002 (Source :0)
+20200612-03:36:57.579726000 : Created session
+20200612-03:36:57.580960000 : Connecting to localhost on port 12002 (Source :0)
+20200612-03:36:57.582510000 : Initiated logon request
+20200612-03:36:57.582569000 : Socket Error: Connection reset by peer.
+20200612-03:36:57.582580000 : Disconnecting
+20200612-05:52:07.552747000 : Created session
+20200612-05:52:07.553599000 : Connecting to localhost on port 12002 (Source :0)
+20200612-05:52:07.554842000 : Initiated logon request
+20200612-05:52:07.555122000 : Socket Error: Connection reset by peer.
+20200612-05:52:07.555140000 : Disconnecting
+20200612-05:53:07.112231000 : Connecting to localhost on port 12002 (Source :0)
+20200612-05:53:07.122254000 : Initiated logon request
+20200612-05:53:07.122608000 : Socket Error: Connection reset by peer.
+20200612-05:53:07.122665000 : Disconnecting

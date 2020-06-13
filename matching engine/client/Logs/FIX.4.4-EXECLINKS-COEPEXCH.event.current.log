@@ -1,0 +1,25 @@
+20200612-03:03:30.726119000 : Created session
+20200612-03:03:30.731214000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:03:30.736970000 : Initiated logon request
+20200612-03:03:30.739039000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200612-03:03:30.739259000 : Received logon response
+20200612-03:03:30.837935000 : Socket Error: Bad file descriptor
+20200612-03:03:30.838044000 : Disconnecting
+20200612-03:04:11.736813000 : Created session
+20200612-03:04:11.738083000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:05:39.037277000 : Created session
+20200612-03:05:39.038581000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:13:21.753337000 : Created session
+20200612-03:13:21.754638000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:14:04.926287000 : Created session
+20200612-03:14:04.927544000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:16:18.201558000 : Created session
+20200612-03:16:18.202842000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:16:53.951089000 : Created session
+20200612-03:16:53.952364000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:19:12.705923000 : Created session
+20200612-03:19:12.707192000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:20:44.866734000 : Created session
+20200612-03:20:44.868049000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:21:53.215764000 : Created session
+20200612-03:21:53.217085000 : Connecting to 127.0.0.1 on port 12000 (Source :0)

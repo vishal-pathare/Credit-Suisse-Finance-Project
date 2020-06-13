@@ -1,0 +1,1223 @@
+20200612-03:22:36.791961000 : Created session
+20200612-03:22:36.793283000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:22:36.793614000 : Initiated logon request
+20200612-03:22:36.794014000 : Received logout request
+20200612-03:22:36.794140000 : Sending logout response
+20200612-03:22:36.794156000 : Disconnecting
+20200612-03:22:36.794245000 : Initiated logon request
+20200612-03:22:53.023488000 : Created session
+20200612-03:22:53.024816000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:22:53.025119000 : Initiated logon request
+20200612-03:22:53.025432000 : Received logon response
+20200612-03:22:53.025444000 : MsgSeqNum too high, expecting 2 but received 3
+20200612-03:22:53.025557000 : Sent ResendRequest FROM: 2 TO: 0
+20200612-03:22:53.025672000 : Received ResendRequest FROM: 2 TO: 0
+20200612-03:22:53.025792000 : Sent SequenceReset TO: 6
+20200612-03:22:53.025857000 : ResendRequest for messages FROM: 2 TO: 2 has been satisfied.
+20200612-03:22:53.026123000 : Received SequenceReset FROM: 2 TO: 5
+20200612-03:23:21.592563000 : Created session
+20200612-03:23:21.594672000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:23:21.595188000 : Initiated logon request
+20200612-03:23:21.595922000 : Received logon response
+20200612-03:23:21.644382000 : Message 6 Rejected: Required tag missing:6
+20200612-03:23:31.657524000 : Message 7 Rejected: Required tag missing:6
+20200612-03:23:41.668367000 : Message 8 Rejected: Required tag missing:6
+20200612-03:23:45.478922000 : Sent test request TEST
+20200612-03:23:51.679271000 : Message 10 Rejected: Required tag missing:6
+20200612-03:24:01.688964000 : Message 11 Rejected: Required tag missing:6
+20200612-03:24:09.238118000 : Sent test request TEST
+20200612-03:24:11.700281000 : Message 13 Rejected: Required tag missing:6
+20200612-03:24:19.096882000 : Socket Error: Connection reset by peer.
+20200612-03:24:19.096919000 : Disconnecting
+20200612-03:24:21.913703000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:24:21.914589000 : Initiated logon request
+20200612-03:24:21.914780000 : Socket Error: Connection reset by peer.
+20200612-03:24:21.914833000 : Disconnecting
+20200612-03:24:56.315757000 : Created session
+20200612-03:24:56.317033000 : Connecting to 127.0.0.1 on port 12000 (Source :0)
+20200612-03:24:56.317348000 : Initiated logon request
+20200612-03:24:56.317733000 : Received logon response
+20200612-03:24:56.317957000 : Received ResendRequest FROM: 21 TO: 0
+20200612-03:24:56.318092000 : Resending Message: 21
+20200612-03:24:56.318846000 : Sent SequenceReset TO: 23
+20200612-03:24:56.318885000 : Resending Message: 23
+20200612-03:24:56.319015000 : Resending Message: 24
+20200612-03:24:56.319231000 : Sent SequenceReset TO: 26
+20200612-03:24:56.319758000 : Message 16 Rejected: Required tag missing:6
+20200612-03:24:56.321946000 : Message 17 Rejected: Required tag missing:6
+20200612-03:24:56.322986000 : Message 18 Rejected: Required tag missing:6
+20200612-03:24:56.359647000 : Message 19 Rejected: Required tag missing:6
+20200612-03:25:06.373020000 : Message 20 Rejected: Required tag missing:6
+20200612-03:25:16.381620000 : Message 21 Rejected: Required tag missing:6
+20200612-03:25:20.178528000 : Sent test request TEST
+20200612-03:25:26.387082000 : Message 23 Rejected: Required tag missing:6
+20200612-03:25:36.398584000 : Message 24 Rejected: Required tag missing:6
+20200612-03:25:44.860165000 : Sent test request TEST
+20200612-03:25:46.410357000 : Message 26 Rejected: Required tag missing:6
+20200612-03:25:56.419216000 : Message 27 Rejected: Required tag missing:6
+20200612-03:26:06.433979000 : Message 28 Rejected: Required tag missing:6
+20200612-03:26:08.292093000 : Sent test request TEST
+20200612-03:26:16.441594000 : Message 30 Rejected: Required tag missing:6
+20200612-03:26:26.453399000 : Message 31 Rejected: Required tag missing:6
+20200612-03:26:32.888385000 : Sent test request TEST
+20200612-03:26:36.465354000 : Message 33 Rejected: Required tag missing:6
+20200612-03:30:37.137010000 : Created session
+20200612-03:30:37.138287000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:30:37.138888000 : Initiated logon request
+20200612-03:30:37.139392000 : Received logon response
+20200612-03:30:37.168630000 : Message 35 Rejected: Required tag missing:6
+20200612-03:30:47.181815000 : Message 37 Rejected: Required tag missing:6
+20200612-03:31:57.351075000 : Created session
+20200612-03:31:57.352515000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:31:57.353227000 : Initiated logon request
+20200612-03:31:57.353682000 : Received logon response
+20200612-03:31:57.384346000 : Message 40 Rejected: Required tag missing:6
+20200612-03:32:07.392174000 : Message 42 Rejected: Required tag missing:6
+20200612-03:32:10.683094000 : Socket Error: Connection reset by peer.
+20200612-03:32:10.683204000 : Disconnecting
+20200612-03:37:09.015850000 : Created session
+20200612-03:37:09.017168000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:37:09.017761000 : Initiated logon request
+20200612-03:37:09.018392000 : Received logon response
+20200612-03:37:09.047355000 : Message 45 Rejected: Required tag missing:6
+20200612-03:37:19.058201000 : Message 46 Rejected: Required tag missing:6
+20200612-03:38:18.207851000 : Created session
+20200612-03:38:18.209139000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:38:18.209733000 : Initiated logon request
+20200612-03:38:18.210321000 : Received logon response
+20200612-03:38:18.239196000 : Message 48 Rejected: Required tag missing:6
+20200612-03:38:28.252572000 : Message 49 Rejected: Required tag missing:6
+20200612-03:38:29.588131000 : Socket Error: Connection reset by peer.
+20200612-03:38:29.588169000 : Disconnecting
+20200612-03:39:09.732865000 : Created session
+20200612-03:39:09.734147000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:39:09.734770000 : Initiated logon request
+20200612-03:39:09.735340000 : Received logon response
+20200612-03:39:09.764112000 : Message 51 Rejected: Required tag missing:6
+20200612-03:39:19.777698000 : Message 52 Rejected: Required tag missing:6
+20200612-03:39:30.663286000 : Created session
+20200612-03:39:30.664563000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:39:30.665148000 : Initiated logon request
+20200612-03:39:30.665554000 : Received logon response
+20200612-03:39:30.694542000 : Message 54 Rejected: Required tag missing:6
+20200612-03:39:36.796331000 : Socket Error: Connection reset by peer.
+20200612-03:39:36.796459000 : Disconnecting
+20200612-03:40:41.233274000 : Created session
+20200612-03:40:41.234622000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:40:41.235223000 : Initiated logon request
+20200612-03:40:41.235676000 : Received logon response
+20200612-03:40:41.235930000 : Received ResendRequest FROM: 83 TO: 0
+20200612-03:40:41.236028000 : Resending Message: 83
+20200612-03:40:41.236105000 : Sent SequenceReset TO: 85
+20200612-03:40:41.236787000 : Message 57 Rejected: Required tag missing:6
+20200612-03:40:41.268357000 : Message 58 Rejected: Required tag missing:6
+20200612-03:42:14.251759000 : Created session
+20200612-03:42:14.253022000 : Connecting to localhost on port 12000 (Source :0)
+20200612-03:42:14.253610000 : Initiated logon request
+20200612-03:42:14.254115000 : Received logon response
+20200612-03:42:14.283115000 : Message 60 Rejected: Required tag missing:6
+20200612-03:42:24.295187000 : Message 61 Rejected: Required tag missing:6
+20200612-03:42:28.090340000 : Socket Error: Connection reset by peer.
+20200612-03:42:28.090380000 : Disconnecting
+20200612-03:45:07.053214000 : Created session
+20200612-03:45:07.054562000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:45:07.055166000 : Initiated logon request
+20200612-03:45:07.055748000 : Received logon response
+20200612-03:45:07.085048000 : Message 63 Rejected: Required tag missing:6
+20200612-03:46:15.964906000 : Created session
+20200612-03:46:15.966201000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:46:15.966785000 : Initiated logon request
+20200612-03:46:15.967161000 : Received logon response
+20200612-03:46:15.996396000 : Message 65 Rejected: Required tag missing:6
+20200612-03:46:26.009672000 : Message 66 Rejected: Required tag missing:6
+20200612-03:47:48.115946000 : Created session
+20200612-03:47:48.117217000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:47:48.117847000 : Initiated logon request
+20200612-03:47:48.118308000 : Received logon response
+20200612-03:47:48.147477000 : Message 68 Rejected: Required tag missing:6
+20200612-03:47:58.159770000 : Message 70 Rejected: Required tag missing:6
+20200612-03:48:20.833243000 : Created session
+20200612-03:48:20.834543000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:48:20.835141000 : Initiated logon request
+20200612-03:48:20.835506000 : Received logon response
+20200612-03:48:20.864612000 : Message 73 Rejected: Required tag missing:6
+20200612-03:48:30.876079000 : Message 75 Rejected: Required tag missing:6
+20200612-03:48:32.380012000 : Socket Error: Connection reset by peer.
+20200612-03:48:32.380125000 : Disconnecting
+20200612-03:54:13.039756000 : Created session
+20200612-03:54:13.041042000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:54:13.041675000 : Initiated logon request
+20200612-03:54:13.042165000 : Received logon response
+20200612-03:54:13.071439000 : Message 78 Rejected: Required tag missing:6
+20200612-03:54:13.362074000 : Socket Error: Connection reset by peer
+20200612-03:54:13.362111000 : Disconnecting
+20200612-03:54:43.361783000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:54:43.362158000 : Initiated logon request
+20200612-03:54:43.362207000 : Socket Error: Connection reset by peer.
+20200612-03:54:43.362223000 : Disconnecting
+20200612-03:55:11.831993000 : Created session
+20200612-03:55:11.833335000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:55:11.833913000 : Initiated logon request
+20200612-03:55:11.834576000 : Received logon response
+20200612-03:55:11.834715000 : Received ResendRequest FROM: 112 TO: 0
+20200612-03:55:11.834824000 : Resending Message: 112
+20200612-03:55:11.834932000 : Sent SequenceReset TO: 114
+20200612-03:55:11.834966000 : Resending Message: 114
+20200612-03:55:11.835030000 : Resending Message: 115
+20200612-03:55:11.835091000 : Resending Message: 116
+20200612-03:55:11.835171000 : Sent SequenceReset TO: 118
+20200612-03:55:11.835202000 : Resending Message: 118
+20200612-03:55:11.835263000 : Resending Message: 119
+20200612-03:55:11.835334000 : Sent SequenceReset TO: 121
+20200612-03:55:11.881762000 : Socket Error: Connection reset by peer
+20200612-03:55:11.881802000 : Disconnecting
+20200612-03:55:26.247444000 : Created session
+20200612-03:55:26.248723000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:55:26.249324000 : Initiated logon request
+20200612-03:55:26.249931000 : Received logon response
+20200612-03:55:26.250067000 : Received ResendRequest FROM: 112 TO: 0
+20200612-03:55:26.250185000 : Resending Message: 112
+20200612-03:55:26.250289000 : Sent SequenceReset TO: 114
+20200612-03:55:26.250322000 : Resending Message: 114
+20200612-03:55:26.250384000 : Resending Message: 115
+20200612-03:55:26.250444000 : Resending Message: 116
+20200612-03:55:26.250523000 : Sent SequenceReset TO: 118
+20200612-03:55:26.250553000 : Resending Message: 118
+20200612-03:55:26.250613000 : Resending Message: 119
+20200612-03:55:26.250689000 : Sent SequenceReset TO: 121
+20200612-03:55:26.250721000 : Resending Message: 121
+20200612-03:55:26.250805000 : Resending Message: 122
+20200612-03:55:26.250872000 : Sent SequenceReset TO: 124
+20200612-03:55:26.250987000 : Message 83 Rejected: Required tag missing:6
+20200612-03:55:26.308346000 : Socket Error: Connection reset by peer
+20200612-03:55:26.308384000 : Disconnecting
+20200612-03:55:56.542638000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:55:56.543720000 : Initiated logon request
+20200612-03:55:56.543867000 : Socket Error: Connection reset by peer.
+20200612-03:55:56.543912000 : Disconnecting
+20200612-03:56:05.942448000 : Created session
+20200612-03:56:05.943724000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:56:05.944318000 : Initiated logon request
+20200612-03:56:05.944824000 : Received logon response
+20200612-03:56:05.945066000 : Received ResendRequest FROM: 112 TO: 0
+20200612-03:56:05.945183000 : Resending Message: 112
+20200612-03:56:05.945284000 : Sent SequenceReset TO: 114
+20200612-03:56:05.945316000 : Resending Message: 114
+20200612-03:56:05.945390000 : Resending Message: 115
+20200612-03:56:05.945459000 : Resending Message: 116
+20200612-03:56:05.945540000 : Sent SequenceReset TO: 118
+20200612-03:56:05.945575000 : Resending Message: 118
+20200612-03:56:05.945645000 : Resending Message: 119
+20200612-03:56:05.945723000 : Sent SequenceReset TO: 121
+20200612-03:56:05.945755000 : Resending Message: 121
+20200612-03:56:05.945815000 : Resending Message: 122
+20200612-03:56:05.945895000 : Sent SequenceReset TO: 125
+20200612-03:56:05.945926000 : Resending Message: 125
+20200612-03:56:05.945983000 : Resending Message: 126
+20200612-03:56:05.946034000 : Resending Message: 127
+20200612-03:56:05.946080000 : Resending Message: 128
+20200612-03:56:05.946131000 : Sent SequenceReset TO: 131
+20200612-03:56:06.003902000 : Socket Error: Connection reset by peer
+20200612-03:56:06.003941000 : Disconnecting
+20200612-03:56:31.601224000 : Created session
+20200612-03:56:31.602500000 : Connecting to localhost on port 3000 (Source :0)
+20200612-03:56:31.603105000 : Initiated logon request
+20200612-03:56:31.603704000 : Received logon response
+20200612-03:56:31.603839000 : Received ResendRequest FROM: 112 TO: 0
+20200612-03:56:31.603971000 : Resending Message: 112
+20200612-03:56:31.604085000 : Sent SequenceReset TO: 114
+20200612-03:56:31.604132000 : Resending Message: 114
+20200612-03:56:31.604189000 : Resending Message: 115
+20200612-03:56:31.604237000 : Resending Message: 116
+20200612-03:56:31.604306000 : Sent SequenceReset TO: 118
+20200612-03:56:31.604325000 : Resending Message: 118
+20200612-03:56:31.604374000 : Resending Message: 119
+20200612-03:56:31.604438000 : Sent SequenceReset TO: 121
+20200612-03:56:31.604457000 : Resending Message: 121
+20200612-03:56:31.604505000 : Resending Message: 122
+20200612-03:56:31.604571000 : Sent SequenceReset TO: 125
+20200612-03:56:31.604589000 : Resending Message: 125
+20200612-03:56:31.604642000 : Resending Message: 126
+20200612-03:56:31.604694000 : Resending Message: 127
+20200612-03:56:31.604742000 : Resending Message: 128
+20200612-03:56:31.604821000 : Sent SequenceReset TO: 131
+20200612-03:56:31.604837000 : Resending Message: 131
+20200612-03:56:31.604884000 : Resending Message: 132
+20200612-03:56:31.604927000 : Resending Message: 133
+20200612-03:56:31.604977000 : Sent SequenceReset TO: 135
+20200612-03:56:31.605095000 : Message 88 Rejected: Required tag missing:6
+20200612-03:56:31.605817000 : Message 89 Rejected: Required tag missing:6
+20200612-03:56:31.606262000 : Message 90 Rejected: Required tag missing:6
+20200612-03:56:31.606695000 : Message 91 Rejected: Required tag missing:6
+20200612-03:56:31.607211000 : Message 92 Rejected: Required tag missing:6
+20200612-03:56:31.610885000 : Message 93 Rejected: Required tag missing:6
+20200612-03:56:31.611084000 : Message 94 Rejected: Required tag missing:6
+20200612-03:56:31.611253000 : Message 95 Rejected: Required tag missing:6
+20200612-03:56:31.611396000 : Message 96 Rejected: Required tag missing:6
+20200612-03:56:31.611535000 : Message 97 Rejected: Required tag missing:6
+20200612-03:56:31.611674000 : Message 98 Rejected: Required tag missing:6
+20200612-03:56:31.611810000 : Message 99 Rejected: Required tag missing:6
+20200612-03:56:31.612269000 : Message 100 Rejected: Required tag missing:6
+20200612-03:56:31.612771000 : Message 101 Rejected: Required tag missing:6
+20200612-03:56:31.613256000 : Message 102 Rejected: Required tag missing:6
+20200612-03:56:31.640694000 : Message 103 Rejected: Required tag missing:6
+20200612-03:56:41.651637000 : Message 104 Rejected: Required tag missing:6
+20200612-03:56:51.655660000 : Message 105 Rejected: Required tag missing:6
+20200612-03:56:55.459584000 : Sent test request TEST
+20200612-03:57:01.664988000 : Message 107 Rejected: Required tag missing:6
+20200612-03:57:11.676463000 : Message 108 Rejected: Required tag missing:6
+20200612-03:57:19.221757000 : Sent test request TEST
+20200612-03:57:21.687786000 : Message 110 Rejected: Required tag missing:6
+20200612-03:57:31.699505000 : Message 111 Rejected: Required tag missing:6
+20200612-03:57:41.710996000 : Message 112 Rejected: Required tag missing:6
+20200612-03:57:43.576739000 : Sent test request TEST
+20200612-03:57:51.722314000 : Message 114 Rejected: Required tag missing:6
+20200612-03:58:01.727869000 : Message 115 Rejected: Required tag missing:6
+20200612-03:58:07.274875000 : Sent test request TEST
+20200612-03:58:11.738010000 : Message 117 Rejected: Required tag missing:6
+20200612-03:58:21.747864000 : Message 118 Rejected: Required tag missing:6
+20200612-03:58:31.758073000 : Message 119 Rejected: Required tag missing:6
+20200612-03:58:31.759060000 : Sent test request TEST
+20200612-03:58:37.114929000 : Socket Error: Connection reset by peer.
+20200612-03:58:37.115106000 : Disconnecting
+20200612-04:07:38.138024000 : Created session
+20200612-04:07:38.139294000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:07:38.139893000 : Initiated logon request
+20200612-04:07:38.140453000 : Received logon response
+20200612-04:07:38.172422000 : Message 122 Rejected: Required tag missing:6
+20200612-04:07:48.182868000 : Message 123 Rejected: Required tag missing:6
+20200612-04:08:29.421065000 : Created session
+20200612-04:08:29.422526000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:08:29.423270000 : Initiated logon request
+20200612-04:08:29.423718000 : Received logon response
+20200612-04:08:29.454310000 : Message 125 Rejected: Required tag missing:6
+20200612-04:08:39.461702000 : Message 126 Rejected: Required tag missing:6
+20200612-04:09:01.857289000 : Created session
+20200612-04:09:01.858605000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:09:01.859230000 : Initiated logon request
+20200612-04:09:01.859664000 : Received logon response
+20200612-04:09:01.892297000 : Message 128 Rejected: Required tag missing:6
+20200612-04:09:11.905064000 : Message 130 Rejected: Required tag missing:6
+20200612-04:09:21.916323000 : Message 132 Rejected: Required tag missing:6
+20200612-04:10:18.517566000 : Created session
+20200612-04:10:18.518876000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:10:18.519472000 : Initiated logon request
+20200612-04:10:18.520116000 : Received logon response
+20200612-04:10:18.587665000 : Socket Error: Connection reset by peer.
+20200612-04:10:18.587704000 : Disconnecting
+20200612-04:10:39.117312000 : Created session
+20200612-04:10:39.118637000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:10:39.119247000 : Initiated logon request
+20200612-04:10:39.119694000 : Received logon response
+20200612-04:10:39.119945000 : Received ResendRequest FROM: 199 TO: 0
+20200612-04:10:39.120047000 : Resending Message: 199
+20200612-04:10:39.120119000 : Resending Message: 200
+20200612-04:10:39.120194000 : Sent SequenceReset TO: 202
+20200612-04:10:39.120875000 : Message 137 Rejected: Required tag missing:6
+20200612-04:10:39.121095000 : Message 138 Rejected: Required tag missing:6
+20200612-04:10:39.122024000 : Message 140 Rejected: Required tag missing:6
+20200612-04:10:39.122247000 : Message 141 Rejected: Required tag missing:6
+20200612-04:10:39.154341000 : Message 143 Rejected: Required tag missing:6
+20200612-04:10:39.154533000 : Message 144 Rejected: Required tag missing:6
+20200612-04:10:49.167640000 : Message 146 Rejected: Required tag missing:6
+20200612-04:10:49.168685000 : Message 147 Rejected: Required tag missing:6
+20200612-04:11:09.001194000 : Created session
+20200612-04:11:09.002494000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:11:09.003091000 : Initiated logon request
+20200612-04:11:09.003455000 : Received logon response
+20200612-04:11:09.032835000 : Message 150 Rejected: Required tag missing:6
+20200612-04:11:09.033069000 : Message 151 Rejected: Required tag missing:6
+20200612-04:11:19.045793000 : Message 152 Rejected: Required tag missing:6
+20200612-04:11:19.046724000 : Message 153 Rejected: Required tag missing:6
+20200612-04:11:38.586356000 : Created session
+20200612-04:11:38.587717000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:11:38.588311000 : Initiated logon request
+20200612-04:11:38.588679000 : Received logon response
+20200612-04:11:38.618342000 : Message 155 Rejected: Required tag missing:6
+20200612-04:11:38.618517000 : Message 156 Rejected: Required tag missing:6
+20200612-04:11:48.631841000 : Message 158 Rejected: Required tag missing:6
+20200612-04:11:48.632705000 : Message 159 Rejected: Required tag missing:6
+20200612-04:12:33.080087000 : Created session
+20200612-04:12:33.081459000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:12:33.082074000 : Initiated logon request
+20200612-04:12:33.082490000 : Received logon response
+20200612-04:38:17.125126000 : Created session
+20200612-04:38:17.127065000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:38:17.127864000 : Initiated logon request
+20200612-04:38:17.128408000 : Received logon response
+20200612-04:40:33.751560000 : Created session
+20200612-04:40:33.753131000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:40:33.753958000 : Initiated logon request
+20200612-04:40:33.754501000 : Received logon response
+20200612-04:40:58.712572000 : Created session
+20200612-04:40:58.714532000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:40:58.715260000 : Initiated logon request
+20200612-04:40:58.715819000 : Received logon response
+20200612-04:41:40.687695000 : Socket Error: Connection reset by peer.
+20200612-04:41:40.687887000 : Disconnecting
+20200612-04:42:29.377044000 : Created session
+20200612-04:42:29.379695000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:42:29.380608000 : Initiated logon request
+20200612-04:42:29.381648000 : Received logon response
+20200612-04:42:29.437279000 : Message 176 Rejected: Required tag missing:6
+20200612-04:42:39.448355000 : Message 177 Rejected: Required tag missing:6
+20200612-04:42:49.464152000 : Message 178 Rejected: Required tag missing:6
+20200612-04:42:53.219555000 : Sent test request TEST
+20200612-04:42:59.470024000 : Message 180 Rejected: Required tag missing:6
+20200612-04:43:01.591683000 : Socket Error: Connection reset by peer.
+20200612-04:43:01.591746000 : Disconnecting
+20200612-04:43:29.567214000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:43:29.567570000 : Initiated logon request
+20200612-04:43:29.567619000 : Socket Error: Connection reset by peer.
+20200612-04:43:29.567634000 : Disconnecting
+20200612-04:43:59.310686000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:43:59.312238000 : Initiated logon request
+20200612-04:43:59.312445000 : Socket Error: Connection reset by peer.
+20200612-04:43:59.312505000 : Disconnecting
+20200612-04:44:02.630377000 : Created session
+20200612-04:44:02.632314000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:44:02.633096000 : Initiated logon request
+20200612-04:44:02.633945000 : Received logon response
+20200612-04:44:02.634095000 : Received ResendRequest FROM: 254 TO: 0
+20200612-04:44:02.634258000 : Resending Message: 254
+20200612-04:44:02.634324000 : Resending Message: 255
+20200612-04:44:02.634372000 : Resending Message: 256
+20200612-04:44:02.634445000 : Sent SequenceReset TO: 258
+20200612-04:44:02.634468000 : Resending Message: 258
+20200612-04:44:02.634534000 : Resending Message: 259
+20200612-04:44:02.634602000 : Sent SequenceReset TO: 261
+20200612-04:44:02.634621000 : Resending Message: 261
+20200612-04:44:02.634666000 : Sent SequenceReset TO: 263
+20200612-04:44:02.635515000 : Message 183 Rejected: Required tag missing:6
+20200612-04:44:02.636476000 : Message 184 Rejected: Required tag missing:6
+20200612-04:44:02.637311000 : Message 185 Rejected: Required tag missing:6
+20200612-04:44:02.638078000 : Message 186 Rejected: Required tag missing:6
+20200612-04:44:02.638773000 : Message 187 Rejected: Required tag missing:6
+20200612-04:44:02.640401000 : Message 188 Rejected: Required tag missing:6
+20200612-04:44:02.672871000 : Message 189 Rejected: Required tag missing:6
+20200612-04:44:12.691028000 : Message 190 Rejected: Required tag missing:6
+20200612-04:44:20.501973000 : Socket Error: Connection reset by peer.
+20200612-04:44:20.502027000 : Disconnecting
+20200612-04:46:39.485638000 : Created session
+20200612-04:46:39.487826000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:46:39.488631000 : Initiated logon request
+20200612-04:46:39.489717000 : Received logon response
+20200612-04:46:39.529323000 : Message 192 Rejected: Required tag missing:6
+20200612-04:46:49.538519000 : Message 193 Rejected: Required tag missing:6
+20200612-04:46:59.549883000 : Message 194 Rejected: Required tag missing:6
+20200612-04:47:03.376705000 : Sent test request TEST
+20200612-04:47:09.559713000 : Message 196 Rejected: Required tag missing:6
+20200612-04:47:13.276716000 : Socket Error: Connection reset by peer.
+20200612-04:47:13.276809000 : Disconnecting
+20200612-04:57:16.983235000 : Created session
+20200612-04:57:16.985448000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:57:16.986238000 : Initiated logon request
+20200612-04:57:16.987327000 : Received logon response
+20200612-04:57:17.019651000 : Message 198 Rejected: Required tag missing:11
+20200612-04:57:27.031003000 : Message 199 Rejected: Required tag missing:11
+20200612-04:57:37.040478000 : Message 200 Rejected: Required tag missing:11
+20200612-04:58:20.930201000 : Created session
+20200612-04:58:20.931905000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:58:20.932680000 : Initiated logon request
+20200612-04:58:20.937101000 : Received logon response
+20200612-04:58:20.966975000 : Message 202 Rejected: Required tag missing:11
+20200612-04:58:30.978187000 : Message 204 Rejected: Required tag missing:11
+20200612-04:59:03.106296000 : Created session
+20200612-04:59:03.109430000 : Connecting to localhost on port 3000 (Source :0)
+20200612-04:59:03.110191000 : Initiated logon request
+20200612-04:59:03.110789000 : Received logon response
+20200612-04:59:03.160666000 : Message 207 Rejected: Required tag missing:11
+20200612-04:59:03.160920000 : Message 208 Rejected: Required tag missing:11
+20200612-05:02:27.710067000 : Created session
+20200612-05:02:27.711947000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:02:27.713175000 : Initiated logon request
+20200612-05:02:27.714650000 : Received logon response
+20200612-05:02:27.821330000 : Socket Error: Connection reset by peer.
+20200612-05:02:27.821373000 : Disconnecting
+20200612-05:02:57.479935000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:02:57.480316000 : Initiated logon request
+20200612-05:02:57.480385000 : Socket Error: Connection reset by peer.
+20200612-05:02:57.480403000 : Disconnecting
+20200612-05:03:27.893760000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:03:27.894096000 : Initiated logon request
+20200612-05:03:27.894151000 : Socket Error: Connection reset by peer.
+20200612-05:03:27.894172000 : Disconnecting
+20200612-05:03:53.345346000 : Created session
+20200612-05:03:53.347371000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:03:53.348159000 : Initiated logon request
+20200612-05:03:53.349289000 : Received logon response
+20200612-05:03:53.349392000 : Received ResendRequest FROM: 300 TO: 0
+20200612-05:03:53.349519000 : Resending Message: 300
+20200612-05:03:53.349598000 : Resending Message: 301
+20200612-05:03:53.349659000 : Resending Message: 302
+20200612-05:03:53.349771000 : Sent SequenceReset TO: 304
+20200612-05:03:53.349799000 : Resending Message: 304
+20200612-05:03:53.349860000 : Resending Message: 305
+20200612-05:03:53.349920000 : Resending Message: 306
+20200612-05:03:53.349979000 : Resending Message: 307
+20200612-05:03:53.350065000 : Sent SequenceReset TO: 309
+20200612-05:03:53.350093000 : Resending Message: 309
+20200612-05:03:53.350167000 : Resending Message: 310
+20200612-05:03:53.350236000 : Sent SequenceReset TO: 312
+20200612-05:03:53.414423000 : Socket Error: Connection reset by peer
+20200612-05:03:53.414458000 : Disconnecting
+20200612-05:04:22.417714000 : Created session
+20200612-05:04:22.419305000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:04:22.420087000 : Initiated logon request
+20200612-05:04:22.421022000 : Received logon response
+20200612-05:04:22.421146000 : Received ResendRequest FROM: 300 TO: 0
+20200612-05:04:22.421296000 : Resending Message: 300
+20200612-05:04:22.421367000 : Resending Message: 301
+20200612-05:04:22.421428000 : Resending Message: 302
+20200612-05:04:22.421542000 : Sent SequenceReset TO: 304
+20200612-05:04:22.421581000 : Resending Message: 304
+20200612-05:04:22.421647000 : Resending Message: 305
+20200612-05:04:22.421710000 : Resending Message: 306
+20200612-05:04:22.421768000 : Resending Message: 307
+20200612-05:04:22.421856000 : Sent SequenceReset TO: 309
+20200612-05:04:22.421883000 : Resending Message: 309
+20200612-05:04:22.421941000 : Resending Message: 310
+20200612-05:04:22.422024000 : Sent SequenceReset TO: 312
+20200612-05:04:22.422050000 : Resending Message: 312
+20200612-05:04:22.422107000 : Resending Message: 313
+20200612-05:04:22.422160000 : Resending Message: 314
+20200612-05:04:22.422232000 : Sent SequenceReset TO: 316
+20200612-05:05:14.855876000 : Socket Error: Connection reset by peer.
+20200612-05:05:14.855936000 : Disconnecting
+20200612-05:05:36.186704000 : Created session
+20200612-05:05:36.188481000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:05:36.189251000 : Initiated logon request
+20200612-05:05:36.190005000 : Received logon response
+20200612-05:05:36.222857000 : Message 233 Rejected: Required tag missing:11
+20200612-05:05:46.235683000 : Message 234 Rejected: Required tag missing:11
+20200612-05:05:56.249443000 : Message 235 Rejected: Required tag missing:11
+20200612-05:05:59.639615000 : Socket Error: Connection reset by peer.
+20200612-05:05:59.639655000 : Disconnecting
+20200612-05:07:03.836947000 : Created session
+20200612-05:07:03.838962000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:07:03.839673000 : Initiated logon request
+20200612-05:07:03.840125000 : Received logon response
+20200612-05:07:03.877195000 : Message 237 Rejected: Required tag missing:268
+20200612-05:07:07.763086000 : Socket Error: Connection reset by peer.
+20200612-05:07:07.763231000 : Disconnecting
+20200612-05:07:28.417121000 : Created session
+20200612-05:07:28.419228000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:07:28.420011000 : Initiated logon request
+20200612-05:07:28.420570000 : Received logon response
+20200612-05:07:28.455065000 : Message 239 Rejected: Required tag missing:268
+20200612-05:07:38.470117000 : Message 240 Rejected: Required tag missing:268
+20200612-05:07:56.383364000 : Created session
+20200612-05:07:56.385306000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:07:56.386055000 : Initiated logon request
+20200612-05:07:56.386644000 : Received logon response
+20200612-05:13:43.418414000 : Created session
+20200612-05:13:43.420768000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:13:43.421647000 : Initiated logon request
+20200612-05:13:43.422643000 : Received logon response
+20200612-05:13:43.520355000 : Socket Error: Connection reset by peer.
+20200612-05:13:43.520401000 : Disconnecting
+20200612-05:14:13.233859000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:14:13.235044000 : Initiated logon request
+20200612-05:14:13.235222000 : Socket Error: Connection reset by peer.
+20200612-05:14:13.235275000 : Disconnecting
+20200612-05:14:25.310985000 : Created session
+20200612-05:14:25.313585000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:14:25.314392000 : Initiated logon request
+20200612-05:14:25.317146000 : Received logon response
+20200612-05:14:25.317271000 : Received ResendRequest FROM: 340 TO: 0
+20200612-05:14:25.317407000 : Resending Message: 340
+20200612-05:14:25.317474000 : Resending Message: 341
+20200612-05:14:25.317531000 : Resending Message: 342
+20200612-05:14:25.317623000 : Sent SequenceReset TO: 344
+20200612-05:14:25.317650000 : Resending Message: 344
+20200612-05:14:25.317704000 : Resending Message: 345
+20200612-05:14:25.317780000 : Sent SequenceReset TO: 347
+20200612-05:14:25.318780000 : Message 246 Rejected: Required tag missing:6
+20200612-05:14:25.326997000 : Message 247 Rejected: Required tag missing:6
+20200612-05:14:25.327290000 : Message 248 Rejected: Required tag missing:6
+20200612-05:14:25.327455000 : Message 249 Rejected: Required tag missing:6
+20200612-05:14:25.327611000 : Message 250 Rejected: Required tag missing:6
+20200612-05:14:25.396422000 : Message 251 Rejected: Required tag missing:6
+20200612-05:14:35.405983000 : Message 252 Rejected: Required tag missing:6
+20200612-05:14:42.417263000 : Socket Error: Connection reset by peer.
+20200612-05:14:42.417364000 : Disconnecting
+20200612-05:21:15.106089000 : Created session
+20200612-05:21:15.107967000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:21:15.108769000 : Initiated logon request
+20200612-05:21:15.109275000 : Received logon response
+20200612-05:21:15.188091000 : Socket Error: Connection reset by peer.
+20200612-05:21:15.188139000 : Disconnecting
+20200612-05:22:22.361184000 : Created session
+20200612-05:22:22.363062000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:22:22.363856000 : Initiated logon request
+20200612-05:22:22.364488000 : Received logon response
+20200612-05:22:22.364853000 : Received ResendRequest FROM: 357 TO: 0
+20200612-05:22:22.364984000 : Resending Message: 357
+20200612-05:22:22.365065000 : Sent SequenceReset TO: 359
+20200612-05:22:22.420970000 : Socket Error: Connection reset by peer
+20200612-05:22:22.421011000 : Disconnecting
+20200612-05:23:12.354143000 : Created session
+20200612-05:23:12.356095000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:23:12.356859000 : Initiated logon request
+20200612-05:23:12.357455000 : Received logon response
+20200612-05:23:12.357613000 : Received ResendRequest FROM: 357 TO: 0
+20200612-05:23:12.357941000 : Resending Message: 357
+20200612-05:23:12.358081000 : Sent SequenceReset TO: 359
+20200612-05:23:12.358129000 : Resending Message: 359
+20200612-05:23:12.358206000 : Sent SequenceReset TO: 361
+20200612-05:23:12.360534000 : Message 258 Rejected: Required tag missing:6
+20200612-05:23:12.360753000 : Message 259 Rejected: Required tag missing:6
+20200612-05:23:12.398782000 : Message 260 Rejected: Required tag missing:6
+20200612-05:23:22.412917000 : Message 261 Rejected: Required tag missing:6
+20200612-05:23:32.424733000 : Message 262 Rejected: Required tag missing:6
+20200612-05:23:35.842139000 : Socket Error: Connection reset by peer.
+20200612-05:23:35.842293000 : Disconnecting
+20200612-05:23:42.482374000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:23:42.483624000 : Initiated logon request
+20200612-05:23:42.483835000 : Socket Error: Connection reset by peer.
+20200612-05:23:42.483909000 : Disconnecting
+20200612-05:24:12.688285000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:24:12.689520000 : Initiated logon request
+20200612-05:24:12.689699000 : Socket Error: Connection reset by peer.
+20200612-05:24:12.689763000 : Disconnecting
+20200612-05:24:42.673935000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:24:42.675308000 : Initiated logon request
+20200612-05:24:42.675502000 : Socket Error: Connection reset by peer.
+20200612-05:24:42.675558000 : Disconnecting
+20200612-05:25:12.362211000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:25:12.363135000 : Initiated logon request
+20200612-05:25:12.363276000 : Socket Error: Connection reset by peer.
+20200612-05:25:12.363311000 : Disconnecting
+20200612-05:25:42.786963000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:25:42.787868000 : Initiated logon request
+20200612-05:25:42.788002000 : Socket Error: Connection reset by peer.
+20200612-05:25:42.788041000 : Disconnecting
+20200612-05:26:12.110639000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:26:12.112281000 : Initiated logon request
+20200612-05:26:12.112472000 : Socket Error: Connection reset by peer.
+20200612-05:26:12.112522000 : Disconnecting
+20200612-05:26:42.103729000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:26:42.104875000 : Initiated logon request
+20200612-05:26:42.105067000 : Socket Error: Connection reset by peer.
+20200612-05:26:42.105146000 : Disconnecting
+20200612-05:27:12.729461000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:27:12.730762000 : Initiated logon request
+20200612-05:27:12.730934000 : Socket Error: Connection reset by peer.
+20200612-05:27:12.730967000 : Disconnecting
+20200612-05:27:24.056369000 : Created session
+20200612-05:27:24.058322000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:27:24.059094000 : Initiated logon request
+20200612-05:27:24.060652000 : Received logon response
+20200612-05:27:24.060783000 : Received ResendRequest FROM: 369 TO: 0
+20200612-05:27:24.060956000 : Resending Message: 369
+20200612-05:27:24.061072000 : Sent SequenceReset TO: 371
+20200612-05:27:24.061105000 : Resending Message: 371
+20200612-05:27:24.061172000 : Resending Message: 372
+20200612-05:27:24.061232000 : Resending Message: 373
+20200612-05:27:24.061326000 : Sent SequenceReset TO: 375
+20200612-05:27:24.061354000 : Resending Message: 375
+20200612-05:27:24.061415000 : Resending Message: 376
+20200612-05:27:24.061472000 : Resending Message: 377
+20200612-05:27:24.061559000 : Sent SequenceReset TO: 379
+20200612-05:27:24.061585000 : Resending Message: 379
+20200612-05:27:24.061645000 : Resending Message: 380
+20200612-05:27:24.062172000 : Sent SequenceReset TO: 382
+20200612-05:27:24.062201000 : Resending Message: 382
+20200612-05:27:24.062261000 : Resending Message: 383
+20200612-05:27:24.062311000 : Resending Message: 384
+20200612-05:27:24.062358000 : Resending Message: 385
+20200612-05:27:24.062433000 : Sent SequenceReset TO: 387
+20200612-05:27:24.062452000 : Resending Message: 387
+20200612-05:27:24.062499000 : Resending Message: 388
+20200612-05:27:24.062599000 : Sent SequenceReset TO: 390
+20200612-05:27:24.062619000 : Resending Message: 390
+20200612-05:27:24.062668000 : Resending Message: 391
+20200612-05:27:24.062712000 : Resending Message: 392
+20200612-05:27:24.062785000 : Sent SequenceReset TO: 394
+20200612-05:27:24.062803000 : Resending Message: 394
+20200612-05:27:24.062848000 : Resending Message: 395
+20200612-05:27:24.062892000 : Resending Message: 396
+20200612-05:27:24.062937000 : Resending Message: 397
+20200612-05:27:24.063009000 : Sent SequenceReset TO: 399
+20200612-05:27:24.063027000 : Resending Message: 399
+20200612-05:27:24.063077000 : Sent SequenceReset TO: 401
+20200612-05:27:24.063217000 : Message 265 Rejected: Required tag missing:6
+20200612-05:27:24.063406000 : Message 266 Rejected: Required tag missing:6
+20200612-05:27:24.071163000 : Message 267 Rejected: Required tag missing:6
+20200612-05:27:24.072289000 : Message 268 Rejected: Required tag missing:6
+20200612-05:27:24.073467000 : Message 269 Rejected: Required tag missing:6
+20200612-05:27:24.075229000 : Message 270 Rejected: Required tag missing:6
+20200612-05:27:24.075672000 : Message 271 Rejected: Required tag missing:6
+20200612-05:27:24.076719000 : Message 272 Rejected: Required tag missing:6
+20200612-05:27:24.078094000 : Message 273 Rejected: Required tag missing:6
+20200612-05:27:24.080346000 : Message 274 Rejected: Required tag missing:6
+20200612-05:27:24.081150000 : Message 275 Rejected: Required tag missing:6
+20200612-05:27:24.082561000 : Message 276 Rejected: Required tag missing:6
+20200612-05:27:24.083992000 : Message 277 Rejected: Required tag missing:6
+20200612-05:27:24.085183000 : Message 278 Rejected: Required tag missing:6
+20200612-05:27:24.086259000 : Message 279 Rejected: Required tag missing:6
+20200612-05:27:24.087421000 : Message 280 Rejected: Required tag missing:6
+20200612-05:27:24.088888000 : Message 281 Rejected: Required tag missing:6
+20200612-05:27:24.090379000 : Message 282 Rejected: Required tag missing:6
+20200612-05:27:24.091969000 : Message 283 Rejected: Required tag missing:6
+20200612-05:27:24.093454000 : Message 284 Rejected: Required tag missing:6
+20200612-05:27:24.094562000 : Message 285 Rejected: Required tag missing:6
+20200612-05:27:24.096700000 : Message 286 Rejected: Required tag missing:6
+20200612-05:27:24.098771000 : Message 287 Rejected: Required tag missing:6
+20200612-05:27:24.141821000 : Message 288 Rejected: Required tag missing:6
+20200612-05:27:59.563699000 : Created session
+20200612-05:27:59.566011000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:27:59.566802000 : Initiated logon request
+20200612-05:27:59.567378000 : Received logon response
+20200612-05:27:59.600741000 : Message 290 Rejected: Required tag missing:6
+20200612-05:28:09.608320000 : Message 291 Rejected: Required tag missing:6
+20200612-05:29:12.448874000 : Created session
+20200612-05:29:12.450917000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:29:12.451985000 : Initiated logon request
+20200612-05:29:12.452492000 : Received logon response
+20200612-05:35:52.384237000 : Created session
+20200612-05:35:52.386211000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:35:52.387018000 : Initiated logon request
+20200612-05:35:52.387811000 : Received logon response
+20200612-05:36:27.498789000 : Created session
+20200612-05:36:27.500630000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:36:27.501424000 : Initiated logon request
+20200612-05:36:27.502187000 : Received logon response
+20200612-05:36:27.538050000 : Message 297 Rejected: Required tag missing:6
+20200612-05:36:37.548696000 : Message 298 Rejected: Required tag missing:6
+20200612-05:37:38.949484000 : Created session
+20200612-05:37:38.952432000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:37:38.953830000 : Initiated logon request
+20200612-05:37:38.954476000 : Received logon response
+20200612-05:37:39.041812000 : Socket Error: Connection reset by peer.
+20200612-05:37:39.041858000 : Disconnecting
+20200612-05:38:29.613142000 : Created session
+20200612-05:38:29.614819000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:38:29.615610000 : Initiated logon request
+20200612-05:38:29.616550000 : Received logon response
+20200612-05:38:29.616690000 : Received ResendRequest FROM: 441 TO: 0
+20200612-05:38:29.616840000 : Resending Message: 441
+20200612-05:38:29.616941000 : Sent SequenceReset TO: 443
+20200612-05:38:29.617945000 : Message 302 Rejected: Required tag missing:6
+20200612-05:38:29.658793000 : Message 303 Rejected: Required tag missing:6
+20200612-05:38:39.669449000 : Message 304 Rejected: Required tag missing:6
+20200612-05:38:49.684884000 : Message 305 Rejected: Required tag missing:6
+20200612-05:39:52.584230000 : Created session
+20200612-05:39:52.585980000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:39:52.586778000 : Initiated logon request
+20200612-05:39:52.587565000 : Received logon response
+20200612-05:39:52.621789000 : Message 307 Rejected: Required tag missing:6
+20200612-05:42:15.422387000 : Created session
+20200612-05:42:15.424710000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:42:15.425633000 : Initiated logon request
+20200612-05:42:15.426821000 : Received logon response
+20200612-05:42:15.524592000 : Socket Error: Connection reset by peer.
+20200612-05:42:15.524640000 : Disconnecting
+20200612-05:42:45.294933000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:42:45.295324000 : Initiated logon request
+20200612-05:42:45.295372000 : Socket Error: Connection reset by peer.
+20200612-05:42:45.295388000 : Disconnecting
+20200612-05:42:53.439187000 : Created session
+20200612-05:42:53.442821000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:42:53.447391000 : Initiated logon request
+20200612-05:42:53.449166000 : Received logon response
+20200612-05:42:53.449282000 : Received ResendRequest FROM: 454 TO: 0
+20200612-05:42:53.449413000 : Resending Message: 454
+20200612-05:42:53.449492000 : Resending Message: 455
+20200612-05:42:53.449559000 : Resending Message: 456
+20200612-05:42:53.449670000 : Sent SequenceReset TO: 458
+20200612-05:42:53.449700000 : Resending Message: 458
+20200612-05:42:53.449771000 : Sent SequenceReset TO: 460
+20200612-05:42:53.453041000 : Message 311 Rejected: Required tag missing:6
+20200612-05:42:53.454230000 : Message 312 Rejected: Required tag missing:6
+20200612-05:42:53.455367000 : Message 313 Rejected: Required tag missing:6
+20200612-05:42:53.459638000 : Message 314 Rejected: Required tag missing:6
+20200612-05:42:53.495100000 : Message 315 Rejected: Required tag missing:6
+20200612-05:43:48.325903000 : Created session
+20200612-05:43:48.326210000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:43:48.326977000 : Initiated logon request
+20200612-05:43:48.327679000 : Received logon response
+20200612-05:45:21.587070000 : Created session
+20200612-05:45:21.587436000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:45:21.588181000 : Initiated logon request
+20200612-05:45:21.588828000 : Received logon response
+20200612-05:45:21.623221000 : Message 320 Rejected: Tag appears more than once:58
+20200612-05:47:10.865836000 : Created session
+20200612-05:47:10.866104000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:47:10.866854000 : Initiated logon request
+20200612-05:47:10.867301000 : Received logon response
+20200612-05:47:39.869028000 : Created session
+20200612-05:47:39.869287000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:47:39.870059000 : Initiated logon request
+20200612-05:47:39.871195000 : Received logon response
+20200612-05:48:49.238953000 : Created session
+20200612-05:48:49.239251000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:48:49.239999000 : Initiated logon request
+20200612-05:48:49.240538000 : Received logon response
+20200612-05:52:09.999598000 : Created session
+20200612-05:52:09.999817000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:52:10.000550000 : Initiated logon request
+20200612-05:52:10.000966000 : Received logon response
+20200612-05:53:54.612165000 : Created session
+20200612-05:53:54.612458000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:53:54.613124000 : Initiated logon request
+20200612-05:53:54.613540000 : Received logon response
+20200612-05:54:04.657080000 : Message 341 Rejected: Tag appears more than once:37
+20200612-05:54:14.668267000 : Message 343 Rejected: Tag appears more than once:37
+20200612-05:56:29.571134000 : Created session
+20200612-05:56:29.571442000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:56:29.572154000 : Initiated logon request
+20200612-05:56:29.572702000 : Received logon response
+20200612-05:56:55.753108000 : Created session
+20200612-05:56:55.753411000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:56:55.754114000 : Initiated logon request
+20200612-05:56:55.754509000 : Received logon response
+20200612-05:58:00.388226000 : Socket Error: Connection reset by peer.
+20200612-05:58:00.388417000 : Disconnecting
+20200612-05:58:10.193724000 : Created session
+20200612-05:58:10.254462000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:58:10.415755000 : Initiated logon request
+20200612-05:58:10.417335000 : Received logon response
+20200612-05:58:30.396945000 : Created session
+20200612-05:58:30.397603000 : Connecting to localhost on port 3000 (Source :0)
+20200612-05:58:30.398461000 : Initiated logon request
+20200612-05:58:30.398916000 : Received logon response
+20200612-05:58:30.399041000 : Received ResendRequest FROM: 506 TO: 0
+20200612-05:58:30.399151000 : Resending Message: 506
+20200612-05:58:30.399237000 : Sent SequenceReset TO: 508
+20200612-06:01:29.301972000 : Created session
+20200612-06:01:29.302258000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:01:29.302955000 : Initiated logon request
+20200612-06:01:29.303528000 : Received logon response
+20200612-06:01:44.033789000 : Socket Error: Connection reset by peer.
+20200612-06:01:44.033945000 : Disconnecting
+20200612-06:02:26.909095000 : Created session
+20200612-06:02:26.909339000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:02:26.910095000 : Initiated logon request
+20200612-06:02:26.911032000 : Received logon response
+20200612-06:02:27.002794000 : Socket Error: Connection reset by peer.
+20200612-06:02:27.002843000 : Disconnecting
+20200612-06:02:56.690179000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:02:56.691428000 : Initiated logon request
+20200612-06:02:56.691638000 : Socket Error: Connection reset by peer.
+20200612-06:02:56.691688000 : Disconnecting
+20200612-06:03:26.153420000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:03:26.154598000 : Initiated logon request
+20200612-06:03:26.154801000 : Socket Error: Connection reset by peer.
+20200612-06:03:26.154907000 : Disconnecting
+20200612-06:03:56.345566000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:03:56.346139000 : Initiated logon request
+20200612-06:03:56.346225000 : Socket Error: Connection reset by peer.
+20200612-06:03:56.347063000 : Disconnecting
+20200612-06:04:26.384468000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:04:26.385577000 : Initiated logon request
+20200612-06:04:26.385714000 : Socket Error: Connection reset by peer.
+20200612-06:04:26.385747000 : Disconnecting
+20200612-06:04:56.244137000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:04:56.244564000 : Initiated logon request
+20200612-06:04:56.244616000 : Socket Error: Connection reset by peer.
+20200612-06:04:56.244629000 : Disconnecting
+20200612-06:05:20.778270000 : Created session
+20200612-06:05:20.778498000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:05:20.779241000 : Initiated logon request
+20200612-06:05:20.779658000 : Received logon response
+20200612-06:05:20.779774000 : Received ResendRequest FROM: 515 TO: 0
+20200612-06:05:20.779917000 : Resending Message: 515
+20200612-06:05:20.780011000 : Resending Message: 516
+20200612-06:05:20.780083000 : Resending Message: 517
+20200612-06:05:20.780196000 : Sent SequenceReset TO: 519
+20200612-06:05:20.780225000 : Resending Message: 519
+20200612-06:05:20.780294000 : Resending Message: 520
+20200612-06:05:20.780361000 : Resending Message: 521
+20200612-06:05:20.780462000 : Sent SequenceReset TO: 523
+20200612-06:05:20.780491000 : Resending Message: 523
+20200612-06:05:20.780559000 : Resending Message: 524
+20200612-06:05:20.780625000 : Resending Message: 525
+20200612-06:05:20.780720000 : Sent SequenceReset TO: 527
+20200612-06:05:20.780768000 : Resending Message: 527
+20200612-06:05:20.780833000 : Resending Message: 528
+20200612-06:05:20.780888000 : Resending Message: 529
+20200612-06:05:20.790155000 : Sent SequenceReset TO: 531
+20200612-06:05:20.790215000 : Resending Message: 531
+20200612-06:05:20.790294000 : Resending Message: 532
+20200612-06:05:20.790349000 : Resending Message: 533
+20200612-06:05:20.790437000 : Sent SequenceReset TO: 535
+20200612-06:05:20.790456000 : Resending Message: 535
+20200612-06:05:20.790512000 : Resending Message: 536
+20200612-06:05:20.790564000 : Resending Message: 537
+20200612-06:05:20.790622000 : Sent SequenceReset TO: 539
+20200612-06:05:25.690928000 : Socket Error: Connection reset by peer.
+20200612-06:05:25.691000000 : Disconnecting
+20200612-06:05:31.366026000 : Created session
+20200612-06:05:31.366316000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:05:31.367033000 : Initiated logon request
+20200612-06:05:31.369758000 : Received logon response
+20200612-06:05:44.880802000 : Socket Error: Connection reset by peer.
+20200612-06:05:44.880955000 : Disconnecting
+20200612-06:08:44.911352000 : Created session
+20200612-06:08:44.911614000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:08:44.912327000 : Initiated logon request
+20200612-06:08:44.912819000 : Received logon response
+20200612-06:10:18.536543000 : Created session
+20200612-06:10:18.536803000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:10:18.537459000 : Initiated logon request
+20200612-06:10:18.537828000 : Received logon response
+20200612-06:12:29.239301000 : Created session
+20200612-06:12:29.239581000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:12:29.240244000 : Initiated logon request
+20200612-06:12:29.240717000 : Received logon response
+20200612-06:12:45.007895000 : Socket Error: Connection reset by peer.
+20200612-06:12:45.008047000 : Disconnecting
+20200612-06:14:12.792556000 : Created session
+20200612-06:14:12.792772000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:14:12.793489000 : Initiated logon request
+20200612-06:14:12.794254000 : Received logon response
+20200612-06:15:06.386158000 : Created session
+20200612-06:15:06.386427000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:15:06.387143000 : Initiated logon request
+20200612-06:15:06.387923000 : Received logon response
+20200612-06:15:58.998541000 : Created session
+20200612-06:15:58.998816000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:15:58.999512000 : Initiated logon request
+20200612-06:15:58.999948000 : Received logon response
+20200612-06:17:04.831258000 : Created session
+20200612-06:17:04.831474000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:17:04.832182000 : Initiated logon request
+20200612-06:17:04.832837000 : Received logon response
+20200612-06:18:19.199190000 : Created session
+20200612-06:18:19.199616000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:18:19.200343000 : Initiated logon request
+20200612-06:18:19.200739000 : Received logon response
+20200612-06:19:33.662723000 : Created session
+20200612-06:19:33.662976000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:19:33.663714000 : Initiated logon request
+20200612-06:19:33.664085000 : Received logon response
+20200612-06:20:39.641379000 : Created session
+20200612-06:20:39.641621000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:20:39.642333000 : Initiated logon request
+20200612-06:20:39.642714000 : Received logon response
+20200612-06:21:22.626785000 : Socket Error: Connection reset by peer.
+20200612-06:21:22.626958000 : Disconnecting
+20200612-06:24:58.790755000 : Created session
+20200612-06:24:58.791031000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:24:58.791677000 : Initiated logon request
+20200612-06:24:58.791734000 : Socket Error: Connection reset by peer.
+20200612-06:24:58.791753000 : Disconnecting
+20200612-06:25:08.526624000 : Created session
+20200612-06:25:08.526900000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:25:08.527627000 : Initiated logon request
+20200612-06:25:08.528263000 : Received logon response
+20200612-06:25:08.528330000 : Received ResendRequest FROM: 585 TO: 0
+20200612-06:25:08.528467000 : Sent SequenceReset TO: 586
+20200612-06:25:08.528507000 : Resending Message: 586
+20200612-06:25:08.528586000 : Sent SequenceReset TO: 588
+20200612-06:25:10.140317000 : Socket Error: Connection reset by peer.
+20200612-06:25:10.140347000 : Disconnecting
+20200612-06:25:50.811231000 : Created session
+20200612-06:25:50.812668000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:25:50.813409000 : Initiated logon request
+20200612-06:25:50.813470000 : Socket Error: Connection reset by peer.
+20200612-06:25:50.813485000 : Disconnecting
+20200612-06:30:26.732031000 : Created session
+20200612-06:30:26.732317000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:30:26.732964000 : Initiated logon request
+20200612-06:30:26.733586000 : Received logon response
+20200612-06:30:26.733700000 : Received ResendRequest FROM: 589 TO: 0
+20200612-06:30:26.733827000 : Sent SequenceReset TO: 590
+20200612-06:30:26.733862000 : Resending Message: 590
+20200612-06:30:26.733934000 : Sent SequenceReset TO: 592
+20200612-06:30:29.204496000 : Socket Error: Connection reset by peer.
+20200612-06:30:29.204546000 : Disconnecting
+20200612-06:30:56.869756000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:30:56.870479000 : Initiated logon request
+20200612-06:30:56.870581000 : Socket Error: Connection reset by peer.
+20200612-06:30:56.870618000 : Disconnecting
+20200612-06:31:26.253188000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:31:26.253587000 : Initiated logon request
+20200612-06:31:26.253629000 : Socket Error: Connection reset by peer.
+20200612-06:31:26.253640000 : Disconnecting
+20200612-06:31:56.462069000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:31:56.462543000 : Initiated logon request
+20200612-06:31:56.462621000 : Socket Error: Connection reset by peer.
+20200612-06:31:56.462636000 : Disconnecting
+20200612-06:32:26.505824000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:32:26.507175000 : Initiated logon request
+20200612-06:32:26.507348000 : Socket Error: Connection reset by peer.
+20200612-06:32:26.507400000 : Disconnecting
+20200612-06:32:38.882984000 : Created session
+20200612-06:32:38.883280000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:32:38.888138000 : Initiated logon request
+20200612-06:32:38.888651000 : Received logon response
+20200612-06:32:38.888776000 : Received ResendRequest FROM: 593 TO: 0
+20200612-06:32:38.888909000 : Resending Message: 593
+20200612-06:32:38.888989000 : Resending Message: 594
+20200612-06:32:38.889055000 : Resending Message: 595
+20200612-06:32:38.889154000 : Sent SequenceReset TO: 597
+20200612-06:32:38.892085000 : Resending Message: 597
+20200612-06:32:38.892236000 : Resending Message: 598
+20200612-06:32:38.892363000 : Sent SequenceReset TO: 600
+20200612-06:32:38.892410000 : Resending Message: 600
+20200612-06:32:38.892486000 : Resending Message: 601
+20200612-06:32:38.892554000 : Resending Message: 602
+20200612-06:32:38.892656000 : Sent SequenceReset TO: 604
+20200612-06:32:38.892682000 : Resending Message: 604
+20200612-06:32:38.892738000 : Resending Message: 605
+20200612-06:32:38.892789000 : Resending Message: 606
+20200612-06:32:38.892873000 : Sent SequenceReset TO: 608
+20200612-06:32:38.892891000 : Resending Message: 608
+20200612-06:32:38.892941000 : Resending Message: 609
+20200612-06:32:38.892997000 : Sent SequenceReset TO: 611
+20200612-06:32:41.095357000 : Socket Error: Connection reset by peer.
+20200612-06:32:41.095385000 : Disconnecting
+20200612-06:32:53.357397000 : Created session
+20200612-06:32:53.358598000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:32:53.359355000 : Initiated logon request
+20200612-06:32:53.360441000 : Received logon response
+20200612-06:32:53.360559000 : Received ResendRequest FROM: 612 TO: 0
+20200612-06:32:53.360675000 : Resending Message: 612
+20200612-06:32:53.360757000 : Sent SequenceReset TO: 614
+20200612-06:33:01.410032000 : Socket Error: Connection reset by peer.
+20200612-06:33:01.410063000 : Disconnecting
+20200612-06:33:24.016407000 : Created session
+20200612-06:33:24.016694000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:33:24.017386000 : Initiated logon request
+20200612-06:33:24.017962000 : Received logon response
+20200612-06:33:24.018056000 : Received ResendRequest FROM: 615 TO: 0
+20200612-06:33:24.018166000 : Resending Message: 615
+20200612-06:33:24.018245000 : Resending Message: 616
+20200612-06:33:24.018328000 : Sent SequenceReset TO: 618
+20200612-06:33:25.732097000 : Socket Error: Connection reset by peer.
+20200612-06:33:25.732126000 : Disconnecting
+20200612-06:33:54.457676000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:33:54.458108000 : Initiated logon request
+20200612-06:33:54.458171000 : Socket Error: Connection reset by peer.
+20200612-06:33:54.458191000 : Disconnecting
+20200612-06:34:24.917315000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:34:24.917792000 : Initiated logon request
+20200612-06:34:24.917874000 : Socket Error: Connection reset by peer.
+20200612-06:34:24.917900000 : Disconnecting
+20200612-06:37:21.811914000 : Created session
+20200612-06:37:21.813748000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:37:21.814670000 : Initiated logon request
+20200612-06:37:21.815465000 : Received logon response
+20200612-06:37:21.815642000 : Received ResendRequest FROM: 619 TO: 0
+20200612-06:37:21.815770000 : Resending Message: 619
+20200612-06:37:21.815856000 : Resending Message: 620
+20200612-06:37:21.815931000 : Resending Message: 621
+20200612-06:37:21.816040000 : Sent SequenceReset TO: 623
+20200612-06:37:21.816069000 : Resending Message: 623
+20200612-06:37:21.816143000 : Resending Message: 624
+20200612-06:37:21.816210000 : Resending Message: 625
+20200612-06:37:21.816307000 : Sent SequenceReset TO: 627
+20200612-06:37:21.816351000 : Resending Message: 627
+20200612-06:37:21.816429000 : Sent SequenceReset TO: 629
+20200612-06:37:24.701054000 : Socket Error: Connection reset by peer.
+20200612-06:37:24.701082000 : Disconnecting
+20200612-06:38:41.462180000 : Created session
+20200612-06:38:41.463274000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:38:41.464132000 : Initiated logon request
+20200612-06:38:41.470417000 : Received logon response
+20200612-06:38:41.470591000 : Received ResendRequest FROM: 630 TO: 0
+20200612-06:38:41.470717000 : Resending Message: 630
+20200612-06:38:41.470804000 : Sent SequenceReset TO: 632
+20200612-06:38:43.738628000 : Socket Error: Connection reset by peer.
+20200612-06:38:43.738669000 : Disconnecting
+20200612-06:42:05.436575000 : Created session
+20200612-06:42:05.436865000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:42:05.437675000 : Initiated logon request
+20200612-06:42:05.438578000 : Received logon response
+20200612-06:42:05.438678000 : Received ResendRequest FROM: 633 TO: 0
+20200612-06:42:05.438792000 : Resending Message: 633
+20200612-06:42:05.438873000 : Sent SequenceReset TO: 635
+20200612-06:44:09.110529000 : Created session
+20200612-06:44:09.110806000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:44:09.111491000 : Initiated logon request
+20200612-06:44:09.112031000 : Received logon response
+20200612-06:46:21.241902000 : Created session
+20200612-06:46:21.242185000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:46:21.242908000 : Initiated logon request
+20200612-06:46:21.243423000 : Received logon response
+20200612-06:49:30.705296000 : Created session
+20200612-06:49:30.705570000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:49:30.706256000 : Initiated logon request
+20200612-06:49:30.707018000 : Received logon response
+20200612-06:51:51.018071000 : Created session
+20200612-06:51:51.018363000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:51:51.019069000 : Initiated logon request
+20200612-06:51:51.019682000 : Received logon response
+20200612-06:52:24.059680000 : Created session
+20200612-06:52:24.059958000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:52:24.060666000 : Initiated logon request
+20200612-06:52:24.061137000 : Received logon response
+20200612-06:53:44.962261000 : Created session
+20200612-06:53:44.962522000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:53:44.963226000 : Initiated logon request
+20200612-06:53:44.963530000 : Received logon response
+20200612-06:54:38.063578000 : Created session
+20200612-06:54:38.063862000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:54:38.064533000 : Initiated logon request
+20200612-06:54:38.065016000 : Received logon response
+20200612-06:56:30.989766000 : Created session
+20200612-06:56:30.990007000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:56:30.990692000 : Initiated logon request
+20200612-06:56:30.991073000 : Received logon response
+20200612-06:57:28.462689000 : Created session
+20200612-06:57:28.462931000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:57:28.463640000 : Initiated logon request
+20200612-06:57:28.464370000 : Received logon response
+20200612-06:58:33.877748000 : Socket Error: Connection reset by peer.
+20200612-06:58:33.877924000 : Disconnecting
+20200612-06:58:41.069251000 : Created session
+20200612-06:58:41.069543000 : Connecting to localhost on port 3000 (Source :0)
+20200612-06:58:41.070529000 : Initiated logon request
+20200612-06:58:41.070932000 : Received logon response
+20200612-07:03:23.419099000 : Created session
+20200612-07:03:23.419383000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:03:23.420163000 : Initiated logon request
+20200612-07:03:23.420990000 : Received logon response
+20200612-07:04:05.631797000 : Created session
+20200612-07:04:05.632076000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:04:05.632779000 : Initiated logon request
+20200612-07:04:05.633120000 : Received logon response
+20200612-07:04:15.676508000 : Message 544 Rejected: Tag appears more than once:37
+20200612-07:04:46.747121000 : Created session
+20200612-07:04:46.747442000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:04:46.748170000 : Initiated logon request
+20200612-07:04:46.748935000 : Received logon response
+20200612-07:08:15.052058000 : Socket Error: Connection reset by peer.
+20200612-07:08:15.052102000 : Disconnecting
+20200612-07:09:31.620001000 : Created session
+20200612-07:09:31.620241000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:09:31.620957000 : Initiated logon request
+20200612-07:09:31.621680000 : Received logon response
+20200612-07:10:00.731492000 : Socket Error: Connection reset by peer.
+20200612-07:10:00.731522000 : Disconnecting
+20200612-07:10:01.689766000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:10:01.690754000 : Initiated logon request
+20200612-07:10:01.690903000 : Socket Error: Connection reset by peer.
+20200612-07:10:01.690958000 : Disconnecting
+20200612-07:10:16.374135000 : Created session
+20200612-07:10:16.374371000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:10:16.375098000 : Initiated logon request
+20200612-07:10:16.375665000 : Received logon response
+20200612-07:10:16.375807000 : Received ResendRequest FROM: 750 TO: 0
+20200612-07:10:16.375924000 : Resending Message: 750
+20200612-07:10:16.376013000 : Sent SequenceReset TO: 753
+20200612-07:11:02.067548000 : Socket Error: Connection reset by peer.
+20200612-07:11:02.068353000 : Disconnecting
+20200612-07:11:43.460404000 : Created session
+20200612-07:11:43.460677000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:11:43.461382000 : Initiated logon request
+20200612-07:11:43.462070000 : Received logon response
+20200612-07:11:53.515899000 : Message 559 Rejected: Tag appears more than once:37
+20200612-07:12:03.525532000 : Message 561 Rejected: Tag appears more than once:37
+20200612-07:12:13.535622000 : Message 563 Rejected: Tag appears more than once:37
+20200612-07:12:23.544995000 : Message 565 Rejected: Tag appears more than once:37
+20200612-07:26:40.255015000 : Created session
+20200612-07:26:40.255267000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:26:40.255962000 : Initiated logon request
+20200612-07:26:40.256408000 : Received logon response
+20200612-07:26:40.299714000 : Message 568 Rejected: Tag appears more than once:37
+20200612-07:26:50.314070000 : Message 570 Rejected: Tag appears more than once:37
+20200612-07:26:54.998626000 : Socket Error: Connection reset by peer.
+20200612-07:26:54.998740000 : Disconnecting
+20200612-07:27:10.234973000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:27:10.236692000 : Initiated logon request
+20200612-07:27:10.236897000 : Socket Error: Connection reset by peer.
+20200612-07:27:10.236983000 : Disconnecting
+20200612-07:29:03.887454000 : Created session
+20200612-07:29:03.887748000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:29:03.888562000 : Initiated logon request
+20200612-07:29:03.889621000 : Received logon response
+20200612-07:29:03.889735000 : Received ResendRequest FROM: 773 TO: 0
+20200612-07:29:03.889853000 : Resending Message: 773
+20200612-07:29:03.889968000 : Sent SequenceReset TO: 775
+20200612-07:29:03.889999000 : Resending Message: 775
+20200612-07:29:03.890066000 : Resending Message: 776
+20200612-07:29:03.890138000 : Sent SequenceReset TO: 778
+20200612-07:29:03.892827000 : Message 576 Rejected: Tag appears more than once:37
+20200612-07:29:03.893881000 : Message 578 Rejected: Tag appears more than once:37
+20200612-07:29:03.932708000 : Message 580 Rejected: Tag appears more than once:37
+20200612-07:29:13.943148000 : Message 582 Rejected: Tag appears more than once:37
+20200612-07:29:23.957170000 : Message 584 Rejected: Tag appears more than once:37
+20200612-07:29:33.963187000 : Message 586 Rejected: Tag appears more than once:37
+20200612-07:45:21.553003000 : Created session
+20200612-07:45:21.553293000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:45:21.554009000 : Initiated logon request
+20200612-07:45:21.554900000 : Received logon response
+20200612-07:45:31.606646000 : Message 591 Rejected: Tag appears more than once:37
+20200612-07:45:41.625379000 : Message 593 Rejected: Tag appears more than once:37
+20200612-07:46:14.201455000 : Created session
+20200612-07:46:14.201736000 : Connecting to localhost on port 3000 (Source :0)
+20200612-07:46:14.202459000 : Initiated logon request
+20200612-07:46:14.203195000 : Received logon response
+20200612-07:49:23.052890000 : Created session
+20200612-07:49:23.055368000 : Connecting to localhost on port 12000 (Source :0)
+20200612-07:49:23.056255000 : Initiated logon request
+20200612-07:49:23.056726000 : Received logon response
+20200612-08:01:28.935714000 : Created session
+20200612-08:01:28.936014000 : Connecting to localhost on port 12000 (Source :0)
+20200612-08:01:28.936726000 : Initiated logon request
+20200612-08:01:28.937463000 : Received logon response
+20200612-08:01:32.298921000 : Socket Error: Connection reset by peer.
+20200612-08:01:32.298976000 : Disconnecting
+20200612-08:01:58.416923000 : Created session
+20200612-08:01:58.417245000 : Connecting to localhost on port 12000 (Source :0)
+20200612-08:01:58.417906000 : Initiated logon request
+20200612-08:01:58.418600000 : Received logon response
+20200612-08:01:58.418716000 : Received ResendRequest FROM: 808 TO: 0
+20200612-08:01:58.418829000 : Resending Message: 808
+20200612-08:01:58.418927000 : Resending Message: 809
+20200612-08:01:58.419016000 : Sent SequenceReset TO: 811
+20200612-08:05:49.222439000 : Created session
+20200612-08:05:49.223401000 : Connecting to localhost on port 12002 (Source :0)
+20200612-08:05:49.224199000 : Initiated logon request
+20200612-08:05:49.226421000 : Received logon response
+20200612-08:08:47.379044000 : Created session
+20200612-08:08:47.381326000 : Connecting to localhost on port 12002 (Source :0)
+20200612-08:08:47.382173000 : Initiated logon request
+20200612-08:08:47.382913000 : Received logon response
+20200612-08:09:33.379620000 : Created session
+20200612-08:09:33.379910000 : Connecting to localhost on port 12002 (Source :0)
+20200612-08:09:33.380606000 : Initiated logon request
+20200612-08:09:33.381173000 : Received logon response
+20200612-08:11:04.644951000 : Created session
+20200612-08:11:04.645230000 : Connecting to localhost on port 12002 (Source :0)
+20200612-08:11:04.645968000 : Initiated logon request
+20200612-08:11:04.646465000 : Received logon response
+20200612-15:33:28.657911000 : Created session
+20200612-15:33:28.672386000 : Connecting to localhost on port 12002 (Source :0)
+20200612-15:33:28.768593000 : Initiated logon request
+20200612-15:33:28.851883000 : Socket Error: Bad file descriptor
+20200612-15:33:28.851919000 : Disconnecting
+20200612-15:33:49.296014000 : Created session
+20200612-15:33:49.296258000 : Connecting to localhost on port 12002 (Source :0)
+20200612-15:33:49.296963000 : Initiated logon request
+20200612-15:33:49.297371000 : Received logon response
+20200612-15:33:49.297385000 : MsgSeqNum too high, expecting 751 but received 752
+20200612-15:33:49.297510000 : Sent ResendRequest FROM: 751 TO: 0
+20200612-15:33:49.297609000 : Received ResendRequest FROM: 951 TO: 0
+20200612-15:33:49.297700000 : Resending Message: 951
+20200612-15:33:49.297777000 : Sent SequenceReset TO: 954
+20200612-15:33:49.297830000 : ResendRequest for messages FROM: 751 TO: 751 has been satisfied.
+20200612-15:33:49.297863000 : Received SequenceReset FROM: 751 TO: 754
+20200612-15:33:49.346858000 : Received ResendRequest FROM: 953 TO: 0
+20200612-15:33:49.347844000 : Sent SequenceReset TO: 954
+20200612-15:33:49.347902000 : Resending Message: 954
+20200612-15:33:54.395729000 : Socket Error: Bad file descriptor
+20200612-15:33:54.395876000 : Disconnecting
+20200612-15:34:29.645214000 : Created session
+20200612-15:34:29.645478000 : Connecting to localhost on port 12002 (Source :0)
+20200612-15:34:29.646132000 : Initiated logon request
+20200612-15:34:29.646486000 : Received logon response
+20200612-15:36:21.746591000 : Created session
+20200612-15:36:21.746852000 : Connecting to localhost on port 12002 (Source :0)
+20200612-15:36:21.747578000 : Initiated logon request
+20200612-15:36:21.748050000 : Received logon response
+20200612-15:53:03.673629000 : Created session
+20200612-15:53:03.694085000 : Connecting to localhost on port 12002 (Source :0)
+20200612-15:53:03.982102000 : Initiated logon request
+20200612-15:53:04.132971000 : Received logon response
+20200612-15:53:04.134189000 : Received ResendRequest FROM: 980 TO: 0
+20200612-15:53:04.134682000 : Resending Message: 980
+20200612-15:53:04.135123000 : Sent SequenceReset TO: 983
