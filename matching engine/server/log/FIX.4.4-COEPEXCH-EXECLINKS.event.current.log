@@ -717,3 +717,24 @@
 20200613-05:02:57.661683000 : Sent ResendRequest FROM: 15 TO: 0
 20200613-05:02:57.661923000 : ResendRequest for messages FROM: 15 TO: 15 has been satisfied.
 20200613-05:02:57.662412000 : Processing QUEUED message: 16
+20200613-05:13:02.122766000 : Created session
+20200613-05:13:08.736059000 : Received logon request
+20200613-05:13:08.736175000 : Responding to logon request
+20200613-05:13:08.736187000 : MsgSeqNum too high, expecting 25 but received 26
+20200613-05:13:08.736292000 : Sent ResendRequest FROM: 25 TO: 0
+20200613-05:13:08.736430000 : ResendRequest for messages FROM: 25 TO: 25 has been satisfied.
+20200613-05:13:08.736951000 : Processing QUEUED message: 26
+20200613-05:13:19.451812000 : Socket Error: Connection reset by peer.
+20200613-05:13:19.451899000 : Disconnecting
+20200613-05:59:03.890460000 : Created session
+20200613-05:59:14.010836000 : Received logon request
+20200613-05:59:14.175544000 : Responding to logon request
+20200613-05:59:14.175574000 : MsgSeqNum too high, expecting 38 but received 39
+20200613-05:59:14.175906000 : Sent ResendRequest FROM: 38 TO: 0
+20200613-05:59:14.176490000 : MsgSeqNum too high, expecting 38 but received 40
+20200613-05:59:14.176513000 : Already sent ResendRequest FROM: 38 TO: 38.  Not sending another.
+20200613-05:59:14.176819000 : ResendRequest for messages FROM: 38 TO: 38 has been satisfied.
+20200613-05:59:14.177756000 : Processing QUEUED message: 39
+20200613-05:59:14.177773000 : Processing QUEUED message: 40
+20200613-05:59:20.329305000 : Socket Error: Connection reset by peer.
+20200613-05:59:20.329409000 : Disconnecting

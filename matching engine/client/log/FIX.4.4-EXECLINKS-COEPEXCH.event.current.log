@@ -1237,3 +1237,17 @@
 20200613-05:02:57.661978000 : Sent SequenceReset TO: 17
 20200613-05:03:04.988730000 : Socket Error: Connection reset by peer.
 20200613-05:03:04.988770000 : Disconnecting
+20200613-05:13:08.735062000 : Created session
+20200613-05:13:08.735313000 : Connecting to localhost on port 12002 (Source :0)
+20200613-05:13:08.735856000 : Initiated logon request
+20200613-05:13:08.736233000 : Received logon response
+20200613-05:13:08.736325000 : Received ResendRequest FROM: 25 TO: 0
+20200613-05:13:08.736394000 : Resending Message: 25
+20200613-05:13:08.736448000 : Sent SequenceReset TO: 27
+20200613-05:59:13.618190000 : Created session
+20200613-05:59:13.713870000 : Connecting to localhost on port 12002 (Source :0)
+20200613-05:59:13.911490000 : Initiated logon request
+20200613-05:59:14.176089000 : Received logon response
+20200613-05:59:14.176524000 : Received ResendRequest FROM: 38 TO: 0
+20200613-05:59:14.176683000 : Resending Message: 38
+20200613-05:59:14.176792000 : Sent SequenceReset TO: 41
