@@ -1,0 +1,122 @@
+{% extends "base1.html" %}
+{% block input %}
+<style type="text/css">
+
+/* The following code provides with the CSS code for the padgrid */
+
+/* The popup form - hidden by default */
+.form-popup {
+display: none;
+position: fixed;
+top: 174px;
+left: 50%;
+margin-left:-272px;
+border: 3px solid #f1f1f1;
+z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+background-color: #4CAF50;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}
+
+.window {
+  text-align:center;
+  width:100%;
+}
+
+.final {
+  width: 200px;
+}
+/* The CSS code for the padgrid ends here */
+
+</style>
+<button class="btn btn-default" onclick="openForm()">Get Market Data</button>
+<div class="form-popup" id="myForm">
+  <form action="/" class="form-container", method="POST">
+    <h1>Real time Market Data</h1>
+    <p>Enter the values of each of the field using the dropbox</p>
+
+    <label for="company">Choose a company:</label>
+    <select id="company" name="company">
+      {% for name in data['name_companies'] %}
+        <option value={{name}}>{{name}}</option>
+      {% endfor %}
+    </select>
+    <br><br>
+    <label for="exchange">Choose an exchange:</label>
+    <select id="exchange" name="exchange">
+      {% for name in data['name_exchanges'] %}
+        <option value={{name}}>{{name}}</option>
+      {% endfor %}
+    </select>
+    <br><br>
+    <label for="num_transactions">Number of transactions:</label>  
+    <input type="number" name="num_transactions" id="num_transactions" value="5" placeholder="5">
+    <br><br>
+    <input type="submit" class="btn" value="Submit">
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+</script>
+{% endblock %}
+
+{% block list_companies %}
+<br>
+<div class="row align-bottom" style="margin-left: 10px; ">
+  <p>{{data['name_companies'][0]}}</p>
+</div>
+<div class="row" style="margin-left: 10px; ">
+  {% for name in data['name_companies'][1:] %}
+    <p>{{ name }}</p>
+  {% endfor %}
+</div>
+{% endblock %}

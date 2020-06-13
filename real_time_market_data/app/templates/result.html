@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results for {{user_data[0].decode()}}</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div class="col-lg-3">
+		<table class="table table-bordered">
+			<thead>
+				<tr colspan="3">Bid Data</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th class="text-center">Sr. No.</th>
+					<th class="text-center">Bid Price</th>
+					<th class="text-center">Quantity</th>
+				</tr>
+				{% for key, value in recv_data[0].items() %}
+				<tr>
+					<td>{{key + 1}}</td>
+					<td>{{value[0]}}</td>
+					<td>{{value[1]}}</td>
+				</tr>
+				{% endfor %}
+				<br><br>	
+			</tbody>
+		</table>
+		<br><br>
+		<table class="table table-bordered">
+			<thead>
+				<tr colspan="3">Ask Data</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th class="text-center">Sr. No.</th>
+					<th class="text-center">Ask Price</th>
+					<th class="text-center">Quantity</th>
+				</tr>
+				{% for key, value in recv_data[1].items() %}
+				<tr>
+					<td>{{key + 1}}</td>
+					<td>{{value[0]}}</td>
+					<td>{{value[1]}}</td>
+				</tr>
+				{% endfor %}
+				<br><br>	
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

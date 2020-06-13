@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+
+
+  <div class="container m-0">
+    <!--Tab Control Starts-->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="orderentry-tab" data-toggle="tab" href="#orderentry" role="tab" aria-controls="orderentry" aria-selected="true">Order Entry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="trademanagement-tab" data-toggle="tab" href="#trademanagement" role="tab" aria-controls="trademanagement" aria-selected="false">Trade Management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pnl-tab" data-toggle="tab" href="#pnl" role="tab" aria-controls="pnl" aria-selected="false">P&L</a>
+      </li>
+    </ul>
+    <!--Tab Control ends-->
+    <div class="tab-content" id="myTabContent">
+    	<!--Order Entry Tab Starts-->
+      <div class="tab-pane fade show active" id="orderentry" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</button>
+                <div class="dropdown-menu" aria-labelledby="menu">
+                  <a class="dropdown-item" href="#!">Save</a>
+                  <a class="dropdown-item" href="#!">Exit</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="dropdown">
+                <div class="dropdown-menu" aria-labelledby="menu">
+                  <a class="dropdown-item" href="#!">Preferences 1</a>
+                  <a class="dropdown-item" href="#!">Preferences 2</a>
+                </div>
+                <button class="btn dropdown-toggle" type="button" id="Settings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <button type="button" name="buystock">Buy Stock</button>
+            <button type="button" name="sellstock">Sell Stock</button>
+          </div>
+          <div class="container" >
+            <div class="row">
+              <div class="col-2" style="height: 800">
+                <div class="row">
+                  {% block input %}
+                  {% endblock %}
+
+                  {% if flag == 1 %}
+                    <a id='result_link' href="../results" target="_blank" onClick="document.getElementById('result_link').innerHTML='Refresh Data';">Display Result</a>
+                  {% endif %}
+
+                </div>
+
+                {% block list_companies %}
+                {% endblock %}
+
+              </div>
+
+              <div class="col-8">
+                <div class="container">
+                  <div class="container-fluid">
+                    <p align="center">Orders</p>
+                  </div>
+                  <div class="">
+                    <button type="button" name="modify">Modify</button>
+                    <button type="button" name="cancel">Cancel</button>
+                  </div>
+                  <table style="height: 10px;" class='table table-hover'>
+                    <thead>
+                      <th>Side</th>
+                      <th>State</th>
+                      <th>Symbol</th>
+                      <th>Client</th>
+                      <th>Size</th>
+                      <th>QtyDone</th>
+                      <th>QtyOpen</th>
+                      <th>OrderID</th>
+                      <th>PriceInstruction</th>
+                      <th>Exchange</th>
+                      <th>OrderStamp</th>
+                      <th>ProductType</th>
+                      <th>Ask</th>
+                      <th>Bid</th>
+                      <th>LTP</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>B</td>
+                        <td>LIVE</td>
+                        <td>RIL</td>
+                        <td>ASCP</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>5000</td>
+                        <td>some random nos</td>
+                        <td>MKT</td>
+                        <td>BSE</td>
+                        <td>Date Time</td>
+                        <td>Stock</td>
+                        <td>1.20</td>
+                        <td>1.25</td>
+                        <td>1.20</td>
+                      </tr>
+                      <tr>
+                        <td>B</td>
+                        <td>LIVE</td>
+                        <td>RIL</td>
+                        <td>ASCP</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>5000</td>
+                        <td>some random nos</td>
+                        <td>MKT</td>
+                        <td>BSE</td>
+                        <td>Date Time</td>
+                        <td>Stock</td>
+                        <td>1.20</td>
+                        <td>1.25</td>
+                        <td>1.20</td>
+                      </tr>
+                      <tr>
+                        <td>B</td>
+                        <td>LIVE</td>
+                        <td>RIL</td>
+                        <td>ASCP</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>5000</td>
+                        <td>some random nos</td>
+                        <td>MKT</td>
+                        <td>BSE</td>
+                        <td>Date Time</td>
+                        <td>Stock</td>
+                        <td>1.20</td>
+                        <td>1.25</td>
+                        <td>1.20</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="container">
+                  <div class="container-fluid">
+                    <p align="center">Fills</p>
+                  </div>
+                  <table class="table table-hover">
+                    <thead>
+                      <th>OrderID</th>
+                      <th>QtyDone</th>
+                      <th>Exchange</th>
+                      <th>Stamp</th>
+                      <th>Price</th>
+                      <th>FillID</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Some Random Order ID</td>
+                        <td>150</td>
+                        <td>NSE</td>
+                        <td>Date</td>
+                        <td>1.45</td>
+                        <td>some random fill id</td>
+                      </tr>
+                      <tr>
+                        <td>Some Random Order ID</td>
+                        <td>150</td>
+                        <td>NSE</td>
+                        <td>Date</td>
+                        <td>1.45</td>
+                        <td>some random fill id</td>
+                      </tr>
+                      <tr>
+                        <td>Some Random Order ID</td>
+                        <td>150</td>
+                        <td>NSE</td>
+                        <td>Date</td>
+                        <td>1.45</td>
+                        <td>some random fill id</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Order Entry Tab ends-->
+      <div class="tab-pane fade" id="trademanagement" role="tabpanel" aria-labelledby="trademanagement-tab">
+        <div class="container">
+          <div class="row">
+            <button type="button" class="btn float-right" type="submit">Refresh</button>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <th>TradeID</th>
+              <th>OrderID</th>
+              <th>FillID</th>
+              <th>Account</th>
+              <th>Symbol</th>
+              <th>Side</th>
+              <th>QtyDone</th>
+              <th>Price</th>
+              <th>CounterParty</th>
+              <th>Exchange</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pnl" role="tabpanel" aria-labelledby="pnl-tab">
+        <div class="dropdown">
+          Account:
+          <button class="btn dropdown-toggle"
+          type="button" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <a class="dropdown-item" href="#!">Action</a>
+          <a class="dropdown-item" href="#!">Another action</a>
+        </div>
+        <button type="button" name="refreshpnl" class="btn">Refresh</button>
+      </div>
+      <table class="table table-hover">
+        <thead>
+          <th>Account</th>
+          <th>Symbol</th>
+          <th>NetPostition</th>
+          <th>AvgPrice</th>
+          <th>Ltp</th>
+          <th>RealizedPnL</th>
+          <th>UnRealizedPnL</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>INFY</td>
+            <td>130</td>
+            <td>2.625</td>
+            <td>2.625</td>
+            <td>25.3</td>
+            <td>25.3</td>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>INFY</td>
+            <td>130</td>
+            <td>2.625</td>
+            <td>2.625</td>
+            <td>25.3</td>
+            <td>25.3</td>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>INFY</td>
+            <td>130</td>
+            <td>2.625</td>
+            <td>2.625</td>
+            <td>25.3</td>
+            <td>25.3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

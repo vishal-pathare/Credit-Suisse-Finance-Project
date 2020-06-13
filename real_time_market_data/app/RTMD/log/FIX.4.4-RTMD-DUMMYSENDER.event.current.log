@@ -1,0 +1,66 @@
+20200612-13:13:59.000000000 : Created session
+20200612-13:14:08.000000000 : Received logon request
+20200612-13:14:08.000000000 : Responding to logon request
+20200612-13:14:08.000000000 : Received ResendRequest FROM: 1 TO: 0
+20200612-13:14:08.000000000 : Resending Message: 1
+20200612-13:14:08.000000000 : Sent SequenceReset TO: 3
+20200612-13:14:14.000000000 : Socket Error: Connection reset by peer.
+20200612-13:14:14.000000000 : Disconnecting
+20200612-13:20:19.000000000 : Created session
+20200612-13:20:23.000000000 : Received logon request
+20200612-13:20:23.000000000 : Responding to logon request
+20200612-13:20:23.000000000 : Received ResendRequest FROM: 3 TO: 0
+20200612-13:20:23.000000000 : Resending Message: 3
+20200612-13:20:23.000000000 : Sent SequenceReset TO: 5
+20200612-13:25:31.000000000 : Created session
+20200612-13:25:35.000000000 : Received logon request
+20200612-13:25:35.000000000 : Responding to logon request
+20200612-13:25:35.000000000 : Received ResendRequest FROM: 19 TO: 0
+20200612-13:25:35.000000000 : Resending Message: 19
+20200612-13:25:35.000000000 : Sent SequenceReset TO: 21
+20200612-13:28:21.000000000 : Created session
+20200612-13:29:03.000000000 : Received logon request
+20200612-13:29:03.000000000 : Responding to logon request
+20200612-13:29:03.000000000 : Received ResendRequest FROM: 22 TO: 0
+20200612-13:29:03.000000000 : Resending Message: 22
+20200612-13:29:03.000000000 : Sent SequenceReset TO: 24
+20200612-13:52:35.000000000 : Created session
+20200612-13:53:15.000000000 : Received logon request
+20200612-13:53:15.000000000 : Responding to logon request
+20200612-13:53:54.000000000 : Sent test request TEST
+20200612-13:53:54.000000000 : Socket Error: An established connection was aborted by the software in your host machine.
+
+20200612-13:53:54.000000000 : Disconnecting
+20200612-13:53:54.000000000 : Received logon request
+20200612-13:53:54.000000000 : Responding to logon request
+20200612-13:53:54.000000000 : MsgSeqNum too high, expecting 40 but received 41
+20200612-13:53:54.000000000 : Sent ResendRequest FROM: 40 TO: 0
+20200612-13:53:54.000000000 : Socket Error: An established connection was aborted by the software in your host machine.
+
+20200612-13:53:54.000000000 : Disconnecting
+20200612-13:54:47.000000000 : Created session
+20200612-13:54:50.000000000 : Received logon request
+20200612-13:54:50.000000000 : Responding to logon request
+20200612-13:54:50.000000000 : MsgSeqNum too high, expecting 40 but received 43
+20200612-13:54:50.000000000 : Sent ResendRequest FROM: 40 TO: 0
+20200612-13:54:50.000000000 : Received ResendRequest FROM: 39 TO: 0
+20200612-13:54:50.000000000 : Resending Message: 39
+20200612-13:54:50.000000000 : Sent SequenceReset TO: 44
+20200612-13:54:50.000000000 : Resending Message: 44
+20200612-13:54:50.000000000 : Sent SequenceReset TO: 47
+20200612-13:54:50.000000000 : Received SequenceReset FROM: 40 TO: 45
+20200612-13:54:55.000000000 : Socket Error: Connection reset by peer.
+20200612-13:54:55.000000000 : Disconnecting
+20200612-13:55:02.000000000 : Created session
+20200612-13:55:07.000000000 : Received logon request
+20200612-13:55:07.000000000 : Responding to logon request
+20200612-13:55:07.000000000 : Received ResendRequest FROM: 46 TO: 0
+20200612-13:55:07.000000000 : Sent SequenceReset TO: 47
+20200612-13:55:07.000000000 : Resending Message: 47
+20200612-13:55:07.000000000 : Sent SequenceReset TO: 49
+20200612-13:56:44.000000000 : Created session
+20200612-13:57:11.000000000 : Received logon request
+20200612-13:57:11.000000000 : Responding to logon request
+20200612-13:57:11.000000000 : Received ResendRequest FROM: 49 TO: 0
+20200612-13:57:11.000000000 : Resending Message: 49
+20200612-13:57:11.000000000 : Sent SequenceReset TO: 51

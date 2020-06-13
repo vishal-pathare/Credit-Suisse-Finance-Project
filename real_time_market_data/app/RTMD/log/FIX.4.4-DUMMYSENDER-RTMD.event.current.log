@@ -1,0 +1,87 @@
+20200612-13:14:08.000000000 : Created session
+20200612-13:14:08.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:14:08.000000000 : Initiated logon request
+20200612-13:14:08.000000000 : Received logon response
+20200612-13:14:08.000000000 : MsgSeqNum too high, expecting 1 but received 2
+20200612-13:14:08.000000000 : Sent ResendRequest FROM: 1 TO: 0
+20200612-13:14:08.000000000 : ResendRequest for messages FROM: 1 TO: 1 has been satisfied.
+20200612-13:14:08.000000000 : Processing QUEUED message: 2
+20200612-13:20:23.000000000 : Created session
+20200612-13:20:23.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:20:23.000000000 : Initiated logon request
+20200612-13:20:23.000000000 : Received logon response
+20200612-13:20:23.000000000 : MsgSeqNum too high, expecting 3 but received 4
+20200612-13:20:23.000000000 : Sent ResendRequest FROM: 3 TO: 0
+20200612-13:20:23.000000000 : ResendRequest for messages FROM: 3 TO: 3 has been satisfied.
+20200612-13:20:23.000000000 : Processing QUEUED message: 4
+20200612-13:25:16.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20200612-13:25:16.000000000 : Disconnecting
+20200612-13:25:35.000000000 : Created session
+20200612-13:25:35.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:25:35.000000000 : Initiated logon request
+20200612-13:25:35.000000000 : Received logon response
+20200612-13:25:35.000000000 : MsgSeqNum too high, expecting 19 but received 20
+20200612-13:25:35.000000000 : Sent ResendRequest FROM: 19 TO: 0
+20200612-13:25:35.000000000 : ResendRequest for messages FROM: 19 TO: 19 has been satisfied.
+20200612-13:25:35.000000000 : Processing QUEUED message: 20
+20200612-13:25:57.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20200612-13:25:57.000000000 : Disconnecting
+20200612-13:29:03.000000000 : Created session
+20200612-13:29:03.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:29:03.000000000 : Initiated logon request
+20200612-13:29:03.000000000 : Received logon response
+20200612-13:29:03.000000000 : MsgSeqNum too high, expecting 22 but received 23
+20200612-13:29:03.000000000 : Sent ResendRequest FROM: 22 TO: 0
+20200612-13:29:03.000000000 : ResendRequest for messages FROM: 22 TO: 22 has been satisfied.
+20200612-13:29:03.000000000 : Processing QUEUED message: 23
+20200612-13:34:18.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20200612-13:34:18.000000000 : Disconnecting
+20200612-13:53:15.000000000 : Created session
+20200612-13:53:15.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:53:15.000000000 : Initiated logon request
+20200612-13:53:15.000000000 : Received logon response
+20200612-13:53:15.000000000 : MsgSeqNum too high, expecting 39 but received 40
+20200612-13:53:15.000000000 : Sent ResendRequest FROM: 39 TO: 0
+20200612-13:53:29.000000000 : Created session
+20200612-13:53:29.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:53:29.000000000 : Initiated logon request
+20200612-13:53:39.000000000 : Timed out waiting for logon response
+20200612-13:53:39.000000000 : Disconnecting
+20200612-13:53:39.000000000 : Initiated logon request
+20200612-13:54:50.000000000 : Created session
+20200612-13:54:50.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:54:50.000000000 : Initiated logon request
+20200612-13:54:50.000000000 : Received logon response
+20200612-13:54:50.000000000 : MsgSeqNum too high, expecting 39 but received 45
+20200612-13:54:50.000000000 : Sent ResendRequest FROM: 39 TO: 0
+20200612-13:54:50.000000000 : Received ResendRequest FROM: 40 TO: 0
+20200612-13:54:50.000000000 : Sent SequenceReset TO: 45
+20200612-13:54:50.000000000 : Received SequenceReset FROM: 40 TO: 44
+20200612-13:54:50.000000000 : ResendRequest for messages FROM: 39 TO: 44 has been satisfied.
+20200612-13:54:50.000000000 : Processing QUEUED message: 45
+20200612-13:55:07.000000000 : Created session
+20200612-13:55:07.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:55:07.000000000 : Initiated logon request
+20200612-13:55:07.000000000 : Received logon response
+20200612-13:55:07.000000000 : MsgSeqNum too high, expecting 46 but received 48
+20200612-13:55:07.000000000 : Sent ResendRequest FROM: 46 TO: 0
+20200612-13:55:07.000000000 : Received SequenceReset FROM: 46 TO: 47
+20200612-13:55:07.000000000 : ResendRequest for messages FROM: 46 TO: 47 has been satisfied.
+20200612-13:55:07.000000000 : Processing QUEUED message: 48
+20200612-13:55:11.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20200612-13:55:11.000000000 : Disconnecting
+20200612-13:57:11.000000000 : Created session
+20200612-13:57:11.000000000 : Connecting to 127.0.0.1 on port 12002 (Source :0)
+20200612-13:57:11.000000000 : Initiated logon request
+20200612-13:57:11.000000000 : Received logon response
+20200612-13:57:11.000000000 : MsgSeqNum too high, expecting 49 but received 50
+20200612-13:57:11.000000000 : Sent ResendRequest FROM: 49 TO: 0
+20200612-13:57:11.000000000 : ResendRequest for messages FROM: 49 TO: 49 has been satisfied.
+20200612-13:57:11.000000000 : Processing QUEUED message: 50
+20200612-14:01:56.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20200612-14:01:56.000000000 : Disconnecting
