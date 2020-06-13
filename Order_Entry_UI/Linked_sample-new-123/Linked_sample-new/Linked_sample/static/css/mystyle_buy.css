@@ -1,0 +1,82 @@
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px !important;
+  background-color: #f1f1f1;
+}
+button.close {
+    background: #d73e4d;
+    border: 1px solid black !important;
+    color: white;
+    display: inline-block;
+    font-size: 27px;
+    height: 35px;
+    line-height: 1;
+    margin: 0px 1px;
+    opacity: 1;
+    text-align: center;
+    width: 40px;
+}
+input{
+	background-color: white;
+	border-radius: 5px !important;
+}
+.modal-backdrop {
+  background-color: #000000;
+}
+.modal-body {
+background-color: #2554C7;
+}
+.modal-header {
+background-color: #306eff;
+}
+.modal-footer {
+background-color: #306eff;
+}
+form, label, p {
+    color: white !important;
+}
+.form-control{
+    background-color:#000000;
+    color: #ffffff;
+}
+#tif{
+	background-color: 	rgb(88,88,88) !important;
+	color: white !important;
+}
+#tif-panel{
+	background-color: #2554C7 !important;
+	margin: 0px ;
+
+}
+#date{
+	margin-left: 3px ;
+	margin-right: 3px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#end{
+	margin: center;
+}
+#cancel{
+	margin: center;
+	background-color: rgb(88,88,88) !important;
+	color:white !important;
+	padding: 5px 80px;
+}
+#ok{
+	margin: center;
+	background-color: rgb(88,88,88) !important;
+	border: 1px solid white;
+	padding: 5px 80px;
+}
+[type="date"] {
+  background:#000 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}

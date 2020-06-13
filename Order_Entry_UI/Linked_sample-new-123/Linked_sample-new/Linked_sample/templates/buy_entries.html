@@ -1,0 +1,16 @@
+{% extends 'a.html' %}
+
+{% block body %}
+
+{% for entry in buy_entries %}
+   <tr>
+	{% for elem in entry %}
+		<td>{{ elem }}</td>
+	{% endfor %}
+   </tr>
+{% endfor %}
+
+{% endblock %}
+		
+	
+

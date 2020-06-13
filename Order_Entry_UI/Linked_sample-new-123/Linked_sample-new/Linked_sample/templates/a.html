@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <title>Online Trading System</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="static/css/mystyle_buy.css">
+  </head>
+  <body>
+  <div class="container m-0">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="orderentry-tab" data-toggle="tab" href="#orderentry" role="tab" aria-controls="orderentry" aria-selected="true">Order Entry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="trademanagement-tab" data-toggle="tab" href="#trademanagement" role="tab" aria-controls="trademanagement" aria-selected="false">Trade Management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pnl-tab" data-toggle="tab" href="#pnl" role="tab" aria-controls="pnl" aria-selected="false">P&L</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="orderentry" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</button>
+                <div class="dropdown-menu" aria-labelledby="menu">
+		<form method = "POST" action = "/save_entry">
+                  <a class="dropdown-item"  type = "submit" href="/save_entry">Save</a>
+                  <a class="dropdown-item" href="#!">Exit</a>
+		</form>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="dropdown">
+                <div class="dropdown-menu" aria-labelledby="menu">
+                  <a class="dropdown-item" href="#!">Preferences 1</a>
+                  <a class="dropdown-item" href="#!">Preferences 2</a>
+                </div>
+                <button class="btn dropdown-toggle" type="button" id="Settings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+           
+		      <!-- Button trigger modal-->
+      <button type="button" name="buystock" class="btn btn-primary" data-toggle="modal" data-target="#modalCart">Buy Stock</button>
+      <!-- Modal: modalCart -->
+      <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+         <div class="col-md-5 col-sm-5 col-xs-12
+            <h4 class="modal-title" id = "myModalLabel">BUY</h4>
+	</div>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">×</span>
+         </button>
+      </div>
+      <!--Body-->
+<form method = "POST" action = "/">
+      <div class="modal-body">
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol :</label>
+                  <input type="text" name = "symbol" class="form-control" placeholder="" style="text-transform: uppercase" >
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol Description :</label>
+                  <input type="text" name = "symdescr" class="form-control" placeholder="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Size :</label>
+                  <input type="number" class="form-control" name = "size" placeholder="" min="1">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Price Instruction :</label>
+                  <select class="form-control input-sm" name = "price_instr">
+                     <option value="Limit">Limit</option>
+                     <option value="Limit Open">Limit Open</option>
+                     <option value="Limit Close">Limit Close</option>
+                     <option value="Market">Market</option>
+                     <option value="Market Open">Market Open</option>
+                     <option value="Market Close">Market Close</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Limit</label>
+                  <input type="number" class="form-control" placeholder="" name ="limit">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div>
+                  <label for="basic-url">Client :</label>
+                  <select class="form-control input-sm" name ="client">
+                     <option value="001">001</option>
+                     <option value="002">002</option>
+                     <option value="003">003</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Client Description :</label>
+                  <input type="text" class="form-control" placeholder="" name = "client_descr" required>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Exchange :</label>
+                  <select class="form-control input-sm" name = "exchange">
+                     <option value="BSE">BSE</option>
+                     <option value="NSE">NSE</option>
+                     <option value="NYSE">NYSE</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Account :</label>
+                  <select class="form-control input-sm" name = "account">
+                     <option value="01">01</option>
+                     <option value="02">02</option>
+                     <option value="03">03</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Counter Party :</label>
+                  <select class="form-control input-sm" name = "counter_party">
+                     <option value="C1">C1</option>
+                     <option value="C2">C2</option>
+                     <option value="C3">C3</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="panel panel-primary"  id = "date">
+         <div class="panel-heading" id = "tif">Time in force</div>
+         <div class="row" id = "tif-panel">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label for="basic-url">TIF</label>
+                  <select class="form-control input-sm" name ="day_order">
+                     <option value="Day Order">Day Order</option>
+                     <option value="GTC">GTC</option>
+                     <option value="IOC">IOC</option>
+                     <option value="GTD">GTD</option>
+                  </select>
+               </div>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label>TIF Date </label>
+                  <div  id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                     <input class="form-control" type="text" name = "date" />
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+      <div class="col-md-1 col-sm-1 col-xs-12">
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+         <div class="panel-body" > 
+            <button type="submit" class="btn btn-primary" id = "ok">OK</button>
+         </div>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+         <div class="panel-body">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id = "cancel">Cancel</button>
+         </div>
+      </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            <button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCart1">Sell Stock</button>
+      <!-- Modal: modalCart -->
+      <div class="modal fade" id="modalCart1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+         <div class="col-md-5 col-sm-5 col-xs-12
+            <h4 class="modal-title" id = "myModalLabel">SELL123</h4></div>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">×</span>
+         </button>
+      </div>
+      <!--Body-->
+      <form method = "POST" action = "/sell">
+      <div class="modal-body">
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol :</label>
+                  <input type="text" name = "symbol" class="form-control" placeholder="" style="text-transform: uppercase" >
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol Description :</label>
+                  <input type="text" name = "symdescr" class="form-control" placeholder="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Size :</label>
+                  <input type="number" class="form-control" name = "size" placeholder="" min="1">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Price Instruction :</label>
+                  <select class="form-control input-sm" name = "price_instr">
+                     <option value="Limit">Limit</option>
+                     <option value="Limit Open">Limit Open</option>
+                     <option value="Limit Close">Limit Close</option>
+                     <option value="Market">Market</option>
+                     <option value="Market Open">Market Open</option>
+                     <option value="Market Close">Market Close</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Limit</label>
+                  <input type="number" class="form-control" placeholder="" name ="limit">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div>
+                  <label for="basic-url">Client :</label>
+                  <select class="form-control input-sm" name ="client">
+                     <option value="001">001</option>
+                     <option value="002">002</option>
+                     <option value="003">003</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Client Description :</label>
+                  <input type="text" class="form-control" placeholder="" name = "client_descr" required>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Exchange :</label>
+                  <select class="form-control input-sm" name = "exchange">
+                     <option value="BSE">BSE</option>
+                     <option value="NSE">NSE</option>
+                     <option value="NYSE">NYSE</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Account :</label>
+                  <select class="form-control input-sm" name = "account">
+                     <option value="01">01</option>
+                     <option value="02">02</option>
+                     <option value="03">03</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Counter Party :</label>
+                  <select class="form-control input-sm" name = "counter_party">
+                     <option value="C1">C1</option>
+                     <option value="C2">C2</option>
+                     <option value="C3">C3</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="panel panel-primary"  id = "date">
+         <div class="panel-heading" id = "tif">Time in force</div>
+         <div class="row" id = "tif-panel">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label for="basic-url">TIF</label>
+                  <select class="form-control input-sm" name ="day_order">
+                     <option value="Day Order">Day Order</option>
+                     <option value="GTC">GTC</option>
+                     <option value="IOC">IOC</option>
+                     <option value="GTD">GTD</option>
+                  </select>
+               </div>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label>TIF Date </label>
+                  <div  id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                     <input class="form-control" type="text" name = "date" />
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+      <div class="col-md-1 col-sm-1 col-xs-12">
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+         <div class="panel-body" > 
+            <button type="submit" class="btn btn-primary" id = "ok" href = '/sell'>OK</button>
+         </div>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+         <div class="panel-body">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id = "cancel">Cancel</button>
+         </div>
+      </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+      <!-- Modal: modalCart -->
+          </div>
+          <div class="container" >
+            <div class="row">
+              <div class="col-2" style="height: 800">
+                <div class="row">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Symbols
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <a class="dropdown-item" href="#!">Action</a>
+                      <a class="dropdown-item" href="#!">Another action</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row align-bottom">
+                  <a href="#"><p>rail</p></a>
+                </div>
+                <div class="row">
+                  <a href="#"><p>talco</p></a>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input align-bottom" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Select All</label>
+                </div>
+              </div>
+
+              <div class="col-8">
+                <div class="container">
+                  <div class="container-fluid">
+                    <p align="center">Orders</p>
+                  </div>
+                  <div class="">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCart3">Modify</button>
+      <!-- Modal: modalCart -->
+      <div class="modal fade" id="modalCart3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+         <div class="col-md-5 col-sm-5 col-xs-12
+            <h4 class="modal-title" id = "myModalLabel">MODIFY</h4></div>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">×</span>
+         </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol :</label>
+                  <input type="text" class="form-control" placeholder="" style="text-transform: uppercase " >
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Symbol Description :</label>
+                  <input type="text" class="form-control" placeholder="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Size :</label>
+                  <input type="number" class="form-control" placeholder="" min="1">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Price Instruction :</label>
+                  <select class="form-control input-sm">
+                     <option value="">Limit</option>
+                     <option value="">Limit Open</option>
+                     <option value="">Limit Close</option>
+                     <option value="">Market</option>
+                     <option value="">Market Open</option>
+                     <option value="">Market Close</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Limit</label>
+                  <input type="number" class="form-control" placeholder="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Client :</label>
+                  <select class="form-control input-sm">
+                     <option value="">001</option>
+                     <option value="">002</option>
+                     <option value="">003</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="panel-body">
+               <div class="input-group input-group-sm">
+                  <label for="basic-url">Client Description :</label>
+                  <input type="text" class="form-control" placeholder="" required>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Exchange :</label>
+                  <select class="form-control input-sm">
+                     <option value="">BSE</option>
+                     <option value="">NSE</option>
+                     <option value="">NYSE</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="panel-body">
+               <div >
+                  <label for="basic-url">Account :</label>
+                  <select class="form-control input-sm">
+                     <option value="">01</option>
+                     <option value="">02</option>
+                     <option value="">03</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="panel panel-primary"  id = "date">
+         <div class="panel-heading" id = "tif">Time in force</div>
+         <div class="row" id = "tif-panel">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label for="basic-url">TIF</label>
+                  <select class="form-control input-sm">
+                     <option value="Day Order">Day Order</option>
+                     <option value="GTC">GTC</option>
+                     <option value="IOC">IOC</option>
+                     <option value="GTD">GTD</option>
+                  </select>
+               </div>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-12">
+               <div class="panel-body" >
+                  <label>TIF Date </label>
+                  <div  id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                     <input class="form-control" type="text"  />
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+      <div class="col-md-1 col-sm-1 col-xs-12">
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+         <div class="panel-body" > 
+            <button type="submit" class="btn btn-primary" id = "ok">OK</button>
+         </div>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-12">
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+         <div class="panel-body">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id = "cancel">Cancel</button>
+         </div>
+      </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      <!-- Modal: modalCart -->
+                    <button type="button" name="cancel">Cancel</button>
+                  </div>
+                  <table style="height: 10px;" class='table table-hover'>
+                    <thead>
+                      <th>Side</th>
+                      <th>State</th>
+                      <th>Symbol</th>
+                      <th>Client</th>
+                      <th>Size</th>
+                      <th>QtyDone</th>
+                      <th>QtyOpen</th>
+                      <th>OrderID</th>
+                      <th>PriceInstruction</th>
+                      <th>Exchange</th>
+                      <th>OrderStamp</th>
+                      <th>ProductType</th>
+                      <th>Ask</th>
+                      <th>Bid</th>
+                      <th>LTP</th>
+                    </thead>
+                    <tbody>
+			{% for new in newls  %}
+   				<tr>
+					{% for common in new  %}
+						<td>{{ common }}</td>
+					{% endfor %}
+   				</tr>
+			{% endfor %}
+                    </tbody>
+                    </table>
+                </div>
+                <div class="container">
+                  <div class="container-fluid">
+                    <p align="center">Fills</p>
+                  </div>
+                  <table class="table table-hover">
+                    <thead>
+                      <th>OrderID</th>
+                      <th>QtyDone</th>
+                      <th>Exchange</th>
+                      <th>Stamp</th>
+                      <th>Price</th>
+                      <th>FillID</th>
+                    </thead>
+                    <tbody>
+			{% for fill in fill_ls  %}
+   				<tr>
+					{% for temp in fill  %}
+						<td>{{ temp }}</td>
+					{% endfor %}
+   				</tr>
+			{% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="trademanagement" role="tabpanel" aria-labelledby="trademanagement-tab">
+        <div class="container">
+          <div class="row">
+            <button type="button" class="btn float-right" type="submit">Refresh</button>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <th>TradeID</th>
+              <th>OrderID</th>
+              <th>FillID</th>
+              <th>Account</th>
+              <th>Symbol</th>
+              <th>Side</th>
+              <th>QtyDone</th>
+              <th>Price</th>
+              <th>CounterParty</th>
+              <th>Exchange</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+              <tr>
+                <td>T1</td>
+                <td>1</td>
+                <td>B1</td>
+                <td>INFY</td>
+                <td>B</td>
+                <td>20</td>
+                <td>1</td>
+                <td>C1</td>
+                <td>NSE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pnl" role="tabpanel" aria-labelledby="pnl-tab">
+        <div class="dropdown">
+        Account:
+          <button class="btn dropdown-toggle"
+                  type="button" id="dropdownMenu1" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <a class="dropdown-item" href="#!">Action</a>
+            <a class="dropdown-item" href="#!">Another action</a>
+          </div>
+          <button type="button" name="refreshpnl" class="btn">Refresh</button>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <th>Account</th>
+            <th>Symbol</th>
+            <th>NetPostition</th>
+            <th>AvgPrice</th>
+            <th>Ltp</th>
+            <th>RealizedPnL</th>
+            <th>UnRealizedPnL</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>INFY</td>
+              <td>130</td>
+              <td>2.625</td>
+              <td>2.625</td>
+              <td>25.3</td>
+              <td>25.3</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>INFY</td>
+              <td>130</td>
+              <td>2.625</td>
+              <td>2.625</td>
+              <td>25.3</td>
+              <td>25.3</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>INFY</td>
+              <td>130</td>
+              <td>2.625</td>
+              <td>2.625</td>
+              <td>25.3</td>
+              <td>25.3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+      <script src="static/js/script_buy.js"></script>
+
+  </body>
+</html>
