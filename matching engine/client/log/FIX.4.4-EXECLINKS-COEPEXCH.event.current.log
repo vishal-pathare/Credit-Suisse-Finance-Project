@@ -1228,3 +1228,12 @@
 20200613-04:59:49.915930000 : Received ResendRequest FROM: 1 TO: 0
 20200613-04:59:49.916030000 : Resending Message: 1
 20200613-04:59:49.916184000 : Sent SequenceReset TO: 3
+20200613-05:02:57.660552000 : Created session
+20200613-05:02:57.660784000 : Connecting to localhost on port 12002 (Source :0)
+20200613-05:02:57.661321000 : Initiated logon request
+20200613-05:02:57.661681000 : Received logon response
+20200613-05:02:57.661806000 : Received ResendRequest FROM: 15 TO: 0
+20200613-05:02:57.661900000 : Resending Message: 15
+20200613-05:02:57.661978000 : Sent SequenceReset TO: 17
+20200613-05:03:04.988730000 : Socket Error: Connection reset by peer.
+20200613-05:03:04.988770000 : Disconnecting

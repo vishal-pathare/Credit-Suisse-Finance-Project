@@ -710,3 +710,10 @@
 20200613-04:59:49.916777000 : Processing QUEUED message: 2
 20200613-05:00:02.364606000 : Socket Error: Connection reset by peer.
 20200613-05:00:02.364681000 : Disconnecting
+20200613-05:02:43.415390000 : Created session
+20200613-05:02:57.661491000 : Received logon request
+20200613-05:02:57.661603000 : Responding to logon request
+20200613-05:02:57.661613000 : MsgSeqNum too high, expecting 15 but received 16
+20200613-05:02:57.661683000 : Sent ResendRequest FROM: 15 TO: 0
+20200613-05:02:57.661923000 : ResendRequest for messages FROM: 15 TO: 15 has been satisfied.
+20200613-05:02:57.662412000 : Processing QUEUED message: 16

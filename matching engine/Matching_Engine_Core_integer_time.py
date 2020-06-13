@@ -165,8 +165,11 @@ def match(argument):
     order_id = argument["Order ID"]
     order_type = argument["Order type"]
     return_order_id = argument["Return Order ID"]
-    stock_id = argument["Security ID"]
 
+    #If it is not cancel order request
+    if (order_id != 3):
+        stock_id = argument["Security ID"]
+        
     #Get the stock from the list of stocks
     stock = get_stock(stock_list, stock_id)
 
